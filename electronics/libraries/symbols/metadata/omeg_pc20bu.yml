@@ -1,0 +1,32 @@
+# Omeg PC20BU Potentiometer metadata for KiCad symbol fields
+manufacturer: Omeg
+mpn: PC20BU
+series: P20
+family: PC20
+track_material: Conductive polymer (plastic)
+rotation_total: "300 ±5 deg"
+rotation_effective: "256 deg nominal"
+operating_torque_cNm: "0.4 – 1.5"
+endstop_torque_cNm: 80
+axial_spindle_load_N: 100
+axial_spindle_load_note: "5 s max"
+law_power_rating_40C:
+  linear_W: 0.4
+  nonlinear_W: 0.2
+options:
+  click_stops: optional
+  torque_variant: "high or low"
+mechanical:
+  shaft_diameter_mm: 6
+  bushing_thread: "M10 x 0.75"
+  body_width_mm: 16
+  body_depth_mm: 8
+  pin_pitch_mm: 5.0
+  pin_plane_offset_from_bushing_mm: 6.5
+footprint_default: wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm
+model_3d_default: "${KIPRJMOD}/libraries/3dmodels/PC20BU.stp"
+notes: |
+  - Rated power depends on law: 0.4 W (linear), 0.2 W (nonlinear) @40°C.
+  - Conductive polymer track: longer life than carbon tracks.
+  - Configure LAW and RESISTANCE per instance (e.g., A100k, B100k).
+  - Consider panel reference at +6.5 mm from pin plane for PCB-to-panel alignment.
