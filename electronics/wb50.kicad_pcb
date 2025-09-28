@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A3")
+	(paper "A2")
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -206,7 +206,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "1922d52d-bd30-44c2-a1dc-509ee1611114")
-		(at 31.4 214)
+		(at 142.9 263.2)
 		(property "Reference" "J1"
 			(at -0.8 0 0)
 			(layer "F.SilkS")
@@ -472,7 +472,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "21b6036e-440c-42c3-917f-430080d90643")
-		(at 271.4 221)
+		(at 382.9 270.2)
 		(property "Reference" "RV4"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -705,7 +705,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "47dec177-95fe-49ee-ac0c-5f56416eddd4")
-		(at 391.4 221)
+		(at 502.9 270.2)
 		(property "Reference" "RV1"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -938,7 +938,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "7f36e0b0-c404-4a38-a928-d68fac710fab")
-		(at 311.4 221)
+		(at 422.9 270.2)
 		(property "Reference" "RV3"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -1171,7 +1171,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "96b0b450-e033-4233-87c9-49cc4bd7ae0f")
-		(at 351.4 221)
+		(at 462.9 270.2)
 		(property "Reference" "RV2"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -1404,7 +1404,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "b47b314c-3539-407c-a69f-7401613e67c7")
-		(at 151.4 221)
+		(at 262.9 270.2)
 		(property "Reference" "RV7"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -1637,7 +1637,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "cd3ebae6-4a29-4031-8e36-b71a7d709e38")
-		(at 61.4 214)
+		(at 172.9 263.2)
 		(property "Reference" "J2"
 			(at -0.8 0 0)
 			(layer "F.SilkS")
@@ -1903,7 +1903,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "de7861a8-8f44-4eaf-9a57-10231681c58b")
-		(at 231.4 221)
+		(at 342.9 270.2)
 		(property "Reference" "RV5"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -2136,7 +2136,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "df287bff-de49-4b62-8142-7510caf0e735")
-		(at 191.4 221)
+		(at 302.9 270.2)
 		(property "Reference" "RV6"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -2369,7 +2369,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "f602776e-635b-4061-90a2-d2278021ceaf")
-		(at 111.4 221)
+		(at 222.9 270.2)
 		(property "Reference" "RV8"
 			(at 0 -6.8 0)
 			(layer "F.SilkS")
@@ -2599,13 +2599,14 @@
 		)
 	)
 	(gr_rect
-		(start 13 126)
-		(end 407 226)
+		(start 119.5 176)
+		(end 524.5 276)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "f6600f4a-5f55-4725-9efb-f45a39276ec9")
 	)
