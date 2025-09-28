@@ -356,7 +356,7 @@
 				)
 			)
 		)
-		(property "Value" "Audio Jack TRS, 6pin (with switches)"
+		(property "Value" "IN"
 			(at 96.52 64.77 0)
 			(effects
 				(font
@@ -434,7 +434,7 @@
 				)
 			)
 		)
-		(property "Value" "Audio Jack TRS, 6pin (with switches)"
+		(property "Value" "SW"
 			(at 149.86 64.77 0)
 			(effects
 				(font
