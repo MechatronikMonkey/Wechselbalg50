@@ -173,7 +173,7 @@
 		(uuid "a6f92789-1894-4c29-9603-1bc7ab3b13fb")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3dmodels/EL34andSocket.step"
+	(model "${KIPRJMOD}/../shared_libraries/3dmodels/EL34andSocket.step"
 		(offset
 			(xyz 0 0 43.5)
 		)

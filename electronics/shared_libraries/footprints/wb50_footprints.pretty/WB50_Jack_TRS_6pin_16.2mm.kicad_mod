@@ -190,20 +190,20 @@
 		(uuid "bdac5a39-3d84-4a5b-8c4a-388f0c52f3da")
 	)
 	(pad "2" thru_hole circle
-		(at 8.1 -6.3 270)
-		(size 2.6 2.6)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "8a4bbd1a-be17-45be-bb70-0cb1decec7a0")
-	)
-	(pad "3" thru_hole circle
 		(at 8.1 0 270)
 		(size 2.6 2.6)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "02d7ac0f-b3b1-4dac-9546-93d07e97858e")
+	)
+	(pad "3" thru_hole circle
+		(at 8.1 -6.3 270)
+		(size 2.6 2.6)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a4bbd1a-be17-45be-bb70-0cb1decec7a0")
 	)
 	(pad "4" thru_hole circle
 		(at -8.1 -6.3 270)
@@ -230,7 +230,7 @@
 		(uuid "6d50f7e4-0294-4d46-8ff9-7c633a30adc5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3dmodels/ACJS-PH v28.step"
+	(model "${KIPRJMOD}/../shared_libraries/3dmodels/ACJS-PH v28.step"
 		(opacity 0.7800)
 		(offset
 			(xyz 0.1 -12 8.1)

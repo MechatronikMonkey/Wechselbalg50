@@ -206,7 +206,7 @@
 		(uuid "ec3595a9-0f63-4101-ac63-76d5c5f3bcef")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3dmodels/PC20BU.stp"
+	(model "${KIPRJMOD}/../shared_libraries/3dmodels/PC20BU.stp"
 		(offset
 			(xyz -8.26 -25 -7.78)
 		)

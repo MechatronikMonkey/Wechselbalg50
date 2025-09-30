@@ -170,7 +170,7 @@
 		(uuid "64132bd5-fb05-41b8-afae-70f80a4417a3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/3dmodels/12ax7andSocket.step"
+	(model "${KIPRJMOD}/../shared_libraries/3dmodels/12ax7andSocket.step"
 		(offset
 			(xyz -20.5 -4 45)
 		)
