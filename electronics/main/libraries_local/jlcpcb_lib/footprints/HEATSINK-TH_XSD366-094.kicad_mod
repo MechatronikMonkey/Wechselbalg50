@@ -1,25 +1,134 @@
-(module "HEATSINK-TH_XSD366-094" (layer F.Cu) (tedit 68DC2122)
-  (descr "HEATSINK-TH_XSD366-094 footprint")
-  (tags "HEATSINK-TH_XSD366-094 footprint C286227")
-  (attr through_hole)
-  (fp_text reference REF** (at 0 -14.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value HEATSINK-TH_XSD366-094 (at 0 14.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 21 -12.5) (end 21 12.5) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -21 -12.5) (end 21 -12.5) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -21 -12.5) (end -21 12.5) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -21 12.5) (end 21 12.5) (layer F.SilkS) (width 0.254001))
-  (pad 1 thru_hole circle (at -12.750013 0) (size 3.2 3.2) (drill 2.4) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 12.750114 0) (size 3.2 3.2) (drill 2.4) (layers *.Cu *.Mask))
-  (fp_text user REF** (at 0 16.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model packages3d/HEATSINK-TH_XSD366-094.step
-    (at (xyz 0 0 -0.133858))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "HEATSINK-TH_XSD366-094"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HEATSINK-TH_XSD366-094 footprint")
+	(tags "HEATSINK-TH_XSD366-094 footprint C286227")
+	(property "Reference" "REF**"
+		(at 0 -14.5 0)
+		(layer "F.SilkS")
+		(uuid "fd7c0dcb-d414-40a5-b1cd-6658b3ede0d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HEATSINK-TH_XSD366-094"
+		(at 0 14.5 0)
+		(layer "F.Fab")
+		(uuid "b9a57894-5df9-46e7-ba97-cc3bde4beba5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bb887c4-64dd-48c0-b465-8477c741c6e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "016b58a9-bf23-49b5-8c45-9e7c81fa3b50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -21 -12.5)
+		(end -21 12.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e6a8c1c-eb78-4879-99cd-994d6143bb85")
+	)
+	(fp_line
+		(start -21 -12.5)
+		(end 21 -12.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45054bcc-fd92-4993-9a3c-12b085060705")
+	)
+	(fp_line
+		(start -21 12.5)
+		(end 21 12.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca919a7b-3b72-4fad-b1ed-081de3642313")
+	)
+	(fp_line
+		(start 21 -12.5)
+		(end 21 12.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "992129d9-0018-4735-82e3-3d0146210f30")
+	)
+	(fp_text user "REF**"
+		(at 0 16.5 0)
+		(layer "F.Fab")
+		(uuid "07499c72-2b92-4196-9b93-59b9108c668f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -12.750013 0)
+		(size 3.2 3.2)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54f3a9ed-7a0e-46ca-8493-60ef0d3540f2")
+	)
+	(pad "2" thru_hole circle
+		(at 12.750114 0)
+		(size 3.2 3.2)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f34108f9-285d-4d80-8c97-595d5ea0f038")
+	)
+	(embedded_fonts no)
+	(model "packages3d/HEATSINK-TH_XSD366-094.step"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -1,4 +1,4 @@
-26646924915434433
+26660999053826041
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106253,6 +106253,13 @@ Varistor VF
 2
 2
 footprints
+ABS-SMD_L5.0-W4.4-P4.00-LS7.0-BL
+ABS-SMD_L5.0-W4.4-P4.00-LS7.0-BL footprint
+ABS-SMD_L5.0-W4.4-P4.00-LS7.0-BL footprint C882375
+0
+4
+4
+footprints
 C0402
 C0402 footprint
 C0402 footprint C1530
@@ -106267,12 +106274,61 @@ C0603 footprint C1590
 2
 2
 footprints
+C0805
+C0805 footprint
+C0805 footprint C49678
+0
+2
+2
+footprints
+CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD
+CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD footprint
+CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD footprint C487461
+0
+2
+2
+footprints
+CAP-TH_BD16.0-P7.50-D1.2-FD
+CAP-TH_BD16.0-P7.50-D1.2-FD footprint
+CAP-TH_BD16.0-P7.50-D1.2-FD footprint C442803
+0
+2
+2
+footprints
+HEATSINK-TH_XSD366-094
+HEATSINK-TH_XSD366-094 footprint
+HEATSINK-TH_XSD366-094 footprint C286227
+0
+2
+2
+footprints
+MBS_L4.7-W4.0-P2.50-LS7.0-BL
+MBS_L4.7-W4.0-P2.50-LS7.0-BL footprint
+MBS_L4.7-W4.0-P2.50-LS7.0-BL footprint C475740
+0
+4
+4
+footprints
 MICRO-USB-SMD_5P-P0.65-H-F_C10418
 MICRO-USB-SMD_5P-P0.65-H-F_C10418 footprint
 MICRO-USB-SMD_5P-P0.65-H-F_C10418 footprint C10418
 0
 9
 9
+footprints
+TO-220-3_L10.0-W4.5-P2.54-L
+TO-220-3_L10.0-W4.5-P2.54-L footprint
+TO-220-3_L10.0-W4.5-P2.54-L footprint C2914
+0
+3
+3
+footprints
+TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL
+TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL footprint
+TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL footprint C13456
+0
+3
+3
 wb50_footprints
 WB50_Jack_TRS_6pin_16.2mm
 

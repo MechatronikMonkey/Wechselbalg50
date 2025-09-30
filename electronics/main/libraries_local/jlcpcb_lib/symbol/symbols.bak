@@ -1010,10 +1010,12 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "LKMI2501C682MF_1_1"
 			(pin passive line
 				(at 0 5.08 270)
 				(length 4.318)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1 1)
@@ -1031,7 +1033,7 @@
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 4.826)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1 1)
