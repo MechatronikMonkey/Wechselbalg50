@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name wb50_symbols) (type KiCad) (uri ${KIPRJMOD}/../shared_libraries/symbols/wb50_symbols.kicad_sym) (options "") (descr "WB50 project symbols"))
+  (version 7)
+  (lib (name "wb50_symbols")(type "KiCad")(uri "${KIPRJMOD}/../shared_libraries/symbols/wb50_symbols.kicad_sym")(options "")(descr "WB50 project symbols"))
 )

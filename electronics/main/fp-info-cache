@@ -1,4 +1,4 @@
-26641646547504573
+26646924915434433
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106252,6 +106252,27 @@ Varistor VF
 0
 2
 2
+footprints
+C0402
+C0402 footprint
+C0402 footprint C1530
+0
+2
+2
+footprints
+C0603
+C0603 footprint
+C0603 footprint C1590
+0
+2
+2
+footprints
+MICRO-USB-SMD_5P-P0.65-H-F_C10418
+MICRO-USB-SMD_5P-P0.65-H-F_C10418 footprint
+MICRO-USB-SMD_5P-P0.65-H-F_C10418 footprint C10418
+0
+9
+9
 wb50_footprints
 WB50_Jack_TRS_6pin_16.2mm
 

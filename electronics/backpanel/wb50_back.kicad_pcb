@@ -1042,6 +1042,31 @@
 		(layer "Edge.Cuts")
 		(uuid "7dfea81e-1aaa-451b-85fb-e4c903f7ba6a")
 	)
+	(gr_text "C.Müller 2025"
+		(at 125.25 137.25 90)
+		(layer "F.SilkS")
+		(uuid "30775479-973a-467b-86e5-8332419e0175")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "WB50-Speaker Connector V1.0"
+		(at 102.5 128.75 90)
+		(layer "F.SilkS")
+		(uuid "35150f92-0936-406d-9cd4-84172794c48d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 107.6 121.4)
 		(end 107.6 125.5)

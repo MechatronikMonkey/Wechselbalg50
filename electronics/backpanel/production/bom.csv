@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J2",WB50_Jack_TRS_6pin_16.2mm,2,"Audio Jack TRS, 6pin (with switches)",
+X1,TestPoint_THTPad_D4.0mm_Drill2.0mm,1,Audio IN,
+X2,TestPoint_THTPad_D4.0mm_Drill2.0mm,1,GND_OT,
+X3,TestPoint_THTPad_D1.5mm_Drill0.7mm,1,NFB,
+X4,TestPoint_THTPad_D4.0mm_Drill2.0mm,1,GND_NFB,
