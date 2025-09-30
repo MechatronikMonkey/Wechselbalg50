@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name wb50_footprints) (type KiCad) (uri ${KIPRJMOD}/libraries/footprints/wb50_footprints.pretty) (options "") (descr "WB50 project footprints"))
-)

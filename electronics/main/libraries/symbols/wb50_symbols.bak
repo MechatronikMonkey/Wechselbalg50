@@ -1,0 +1,1549 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "WB50_12AX7"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
+			(at 4.572 4.064 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12AX7"
+			(at -5.588 4.064 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+			(at -1.016 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+			(at 0.254 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+			(at -1.778 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "tube valve röhre audio vakuum vacuum ecc83 12ax7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*Noval*9*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WB50_12AX7_0_1"
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "WB50_12AX7_1_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy 1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.905) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.032)
+				(radius 0.568)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "T2"
+				(at 2.54 1.016 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 6.35 270)
+				(length 2.54)
+				(name "A/P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "C/K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WB50_12AX7_2_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy 1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.905) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.032)
+				(radius 0.568)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "T1\n"
+				(at 2.54 1.016 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 6.35 270)
+				(length 2.54)
+				(name "A/P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "C/K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WB50_12AX7_3_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "H1"
+				(at -1.27 1.524 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(text "H2"
+				(at 1.27 1.524 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 5.08 270)
+				(length 2.54)
+				(name "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6.35 90)
+				(length 5.08)
+				(name "CT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(name "H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "WB50_EL34"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
+			(at 4.064 5.08 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL34"
+			(at -4.572 5.08 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Octal_8Pin_D26.0mm_Hole2.0mm"
+			(at 0.254 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/el34.pdf"
+			(at 0.508 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Leistungspentode für Audioendverstärker"
+			(at -0.762 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "tube valve röhre audio vakuum vacuum el34 6ca7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*Octal*8*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WB50_EL34_1_1"
+			(polyline
+				(pts
+					(xy -2.54 1.905) (xy -2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.397) (xy -1.905 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.397) (xy -1.27 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0.381) (xy -1.27 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -1.524) (xy -0.889 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.254) (xy -0.635 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -1.524 -2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.397) (xy 0.635 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 -0.254) (xy 0.254 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 -1.524) (xy 0.381 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.0002 -3.8098)
+				(mid -1.7963 -3.0659)
+				(end -2.5402 -1.2698)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 1.905)
+				(mid -1.7961 3.7011)
+				(end 0 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 4.445)
+				(mid 1.7961 3.7011)
+				(end 2.54 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.5398 -1.2698)
+				(mid 1.7959 -3.0659)
+				(end -0.0002 -3.8098)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -1.524) (xy 1.651 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.254) (xy 0.635 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.254) (xy 1.905 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy -1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 2.032) (xy 1.905 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 1.397) (xy 1.27 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 -1.27 0)
+				(length 2.54)
+				(name "g1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 6.35 270)
+				(length 2.54)
+				(name "a"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "g3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "g2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "k"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WB50_EL34_2_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 0 1.27) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "f"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "f"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "WB50_Jack_TRS_6pin_Switched"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -0.254 12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Audio Jack TRS, 6pin (with switches)"
+			(at 0.254 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Jack_TRS_6pin_16.2mm"
+			(at 0 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WB50_Jack_TRS_6pin_Switched_0_0"
+			(polyline
+				(pts
+					(xy 4.445 -6.985) (xy 4.5824 -6.9221) (xy 4.6026 -6.9094) (xy 4.7245 -6.8007) (xy 4.7817 -6.6661)
+					(xy 4.7831 -6.4863) (xy 4.7627 -6.3819) (xy 4.6847 -6.2364) (xy 4.5532 -6.15) (xy 4.3668 -6.1214)
+					(xy 4.3127 -6.1224) (xy 4.213 -6.1384) (xy 4.1301 -6.1861) (xy 4.0312 -6.2812) (xy 3.8792 -6.4409)
+					(xy 0.7426 -6.4409) (xy 0.5169 -6.4409) (xy -0.0343 -6.4406) (xy -0.5126 -6.44) (xy -0.9229 -6.4389)
+					(xy -1.2702 -6.4373) (xy -1.5597 -6.4349) (xy -1.7963 -6.4319) (xy -1.985 -6.4279) (xy -2.131 -6.4231)
+					(xy -2.2391 -6.4171) (xy -2.3144 -6.4101) (xy -2.362 -6.4018) (xy -2.3869 -6.3922) (xy -2.3941 -6.3811)
+					(xy -2.3941 -6.3802) (xy -2.3869 -6.3169) (xy -2.3684 -6.1931) (xy -2.3411 -6.0264) (xy -2.308 -5.8341)
+					(xy -2.3038 -5.8101) (xy -2.2687 -5.5949) (xy -2.2515 -5.4487) (xy -2.2515 -5.3635) (xy -2.268 -5.3314)
+					(xy -2.2736 -5.3275) (xy -2.2919 -5.2736) (xy -2.3045 -5.1543) (xy -2.3119 -4.9648) (xy -2.3142 -4.7003)
+					(xy -2.3142 -4.0846) (xy 0.8182 -4.0846) (xy 1.0208 -4.0846) (xy 1.5685 -4.0847) (xy 2.0434 -4.0849)
+					(xy 2.4507 -4.0855) (xy 2.7956 -4.0865) (xy 3.0835 -4.0881) (xy 3.3194 -4.0904) (xy 3.5088 -4.0937)
+					(xy 3.6569 -4.0979) (xy 3.7689 -4.1033) (xy 3.85 -4.1099) (xy 3.9055 -4.118) (xy 3.9407 -4.1276)
+					(xy 3.9608 -4.139) (xy 3.9711 -4.1521) (xy 3.9768 -4.1672) (xy 4.0127 -4.2292) (xy 4.1148 -4.3154)
+					(xy 4.2497 -4.3791) (xy 4.3892 -4.404) (xy 4.4293 -4.4018) (xy 4.5413 -4.3641) (xy 4.6588 -4.2683)
+					(xy 4.7389 -4.1777) (xy 4.7832 -4.0826) (xy 4.7937 -3.9588) (xy 4.7674 -3.7936) (xy 4.679 -3.6489)
+					(xy 4.5347 -3.5574) (xy 4.341 -3.5255) (xy 4.3116 -3.5274) (xy 4.1931 -3.5625) (xy 4.0779 -3.629)
+					(xy 3.9905 -3.71) (xy 3.9559 -3.7886) (xy 3.9559 -3.789) (xy 3.9461 -3.7993) (xy 3.9146 -3.8083)
+					(xy 3.8565 -3.8161) (xy 3.767 -3.8228) (xy 3.6413 -3.8283) (xy 3.4745 -3.8329) (xy 3.2618 -3.8366)
+					(xy 2.9982 -3.8395) (xy 2.679 -3.8417) (xy 2.2994 -3.8433) (xy 1.8544 -3.8443) (xy 1.3392 -3.8448)
+					(xy 0.749 -3.845) (xy 0.6328 -3.845) (xy 0.0309 -3.8454) (xy -0.4958 -3.8464) (xy -0.9512 -3.8481)
+					(xy -1.3394 -3.8505) (xy -1.6643 -3.8537) (xy -1.9298 -3.8578) (xy -2.1399 -3.8628) (xy -2.2987 -3.8687)
+					(xy -2.4099 -3.8757) (xy -2.4777 -3.8837) (xy -2.5059 -3.8929) (xy -2.5152 -3.9081) (xy -2.5326 -3.9865)
+					(xy -2.5351 -4.0168) (xy 4.1318 -4.0168) (xy 4.1348 -3.9296) (xy 4.1419 -3.9048) (xy 4.2103 -3.7934)
+					(xy 4.312 -3.7337) (xy 4.4254 -3.7329) (xy 4.5288 -3.7982) (xy 4.5802 -3.8836) (xy 4.5846 -4.0079)
+					(xy 4.515 -4.1246) (xy 4.5051 -4.1342) (xy 4.417 -4.1939) (xy 4.3289 -4.1891) (xy 4.2179 -4.1193)
+					(xy 4.1829 -4.0898) (xy 4.1318 -4.0168) (xy -2.5351 -4.0168) (xy -2.5446 -4.1292) (xy -2.5516 -4.3415)
+					(xy -2.5538 -4.6284) (xy -2.5547 -4.8263) (xy -2.5594 -5.051) (xy -2.5683 -5.2062) (xy -2.582 -5.2977)
+					(xy -2.6009 -5.3317) (xy -2.6101 -5.3446) (xy -2.6163 -5.425) (xy -2.606 -5.5717) (xy -2.5801 -5.7769)
+					(xy -2.5395 -6.0326) (xy -2.4851 -6.3311) (xy -2.464 -6.4409) (xy -3.7669 -6.4409) (xy -5.0699 -6.4409)
+					(xy -5.0699 -3.4675) (xy -5.0699 -0.4941) (xy -4.8203 -0.4822) (xy -4.5707 -0.4703) (xy -4.5707 3.0442)
+					(xy -4.5707 6.5586) (xy -5.1467 6.5697) (xy -5.3073 6.5721) (xy -5.5058 6.5714) (xy -5.6402 6.5645)
+					(xy -5.7201 6.5509) (xy -5.7551 6.5298) (xy -5.7588 6.5012) (xy -5.7636 6.3976) (xy -5.7681 6.2245)
+					(xy -5.7722 5.9878) (xy -5.776 5.6932) (xy -5.7794 5.3468) (xy -5.7823 4.9544) (xy -5.7847 4.5218)
+					(xy -5.7865 4.055) (xy -5.7877 3.5598) (xy -5.7881 3.0422) (xy -5.7881 2.647) (xy -5.7876 2.0554)
+					(xy -5.7865 1.5374) (xy -5.7848 1.0893) (xy -5.7823 0.7071) (xy -5.7791 0.3872) (xy -5.775 0.1256)
+					(xy -5.7701 -0.0816) (xy -5.7643 -0.2381) (xy -5.7613 -0.2866) (xy -5.5491 -0.2866) (xy -5.5491 3.0461)
+					(xy -5.5491 6.3789) (xy -5.1498 6.3789) (xy -4.7504 6.3789) (xy -4.7504 3.0457) (xy -4.7504 -0.2876)
+					(xy -5.1498 -0.2871) (xy -5.5491 -0.2866) (xy -5.7613 -0.2866) (xy -5.7575 -0.3478) (xy -5.7497 -0.4146)
+					(xy -5.7408 -0.4424) (xy -5.7089 -0.4598) (xy -5.6104 -0.4817) (xy -5.4815 -0.4903) (xy -5.2701 -0.4903)
+					(xy -5.2598 -3.5554) (xy -5.25 -6.498) (xy 4.1274 -6.498) (xy 4.1955 -6.401) (xy 4.3025 -6.3359)
+					(xy 4.4259 -6.3282) (xy 4.5321 -6.3839) (xy 4.5588 -6.4201) (xy 4.5905 -6.5242) (xy 4.5864 -6.6336)
+					(xy 4.545 -6.7107) (xy 4.4488 -6.7682) (xy 4.3291 -6.776) (xy 4.2162 -6.7048) (xy 4.2094 -6.6979)
+					(xy 4.1317 -6.5918) (xy 4.1274 -6.498) (xy -5.25 -6.498) (xy -5.2496 -6.6206) (xy -0.6677 -6.6308)
+					(xy 3.9141 -6.6409) (xy 3.9775 -6.7636) (xy 4.0589 -6.8657) (xy 4.1682 -6.9416) (xy 4.3147 -6.9895)
+					(xy 4.445 -6.985)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.5079 -1.7797) (xy 4.6588 -1.6724) (xy 4.7661 -1.5175) (xy 4.798 -1.3434) (xy 4.7512 -1.1577)
+					(xy 4.6935 -1.0694) (xy 4.5677 -0.9774) (xy 4.4146 -0.9365) (xy 4.2555 -0.9476) (xy 4.1116 -1.0113)
+					(xy 4.0042 -1.1287) (xy 3.9359 -1.2486) (xy 2.4683 -1.2488) (xy 2.1269 -1.2483) (xy 1.7677 -1.2462)
+					(xy 1.4819 -1.2421) (xy 1.2659 -1.2361) (xy 1.1161 -1.228) (xy 1.0288 -1.2177) (xy 1.0006 -1.2051)
+					(xy 1.0007 -1.2026) (xy 1.0084 -1.1404) (xy 1.0269 -1.0178) (xy 1.0535 -0.8514) (xy 1.0856 -0.6577)
+					(xy 1.0871 -0.6488) (xy 1.1227 -0.4218) (xy 1.1406 -0.2657) (xy 1.1414 -0.1737) (xy 1.1256 -0.1392)
+					(xy 1.1232 -0.1381) (xy 1.1042 -0.0894) (xy 1.0908 0.0297) (xy 1.083 0.2223) (xy 1.0804 0.4915)
+					(xy 1.0804 1.1072) (xy 2.5155 1.1072) (xy 2.5468 1.1072) (xy 2.9173 1.107) (xy 3.2164 1.1063) (xy 3.4519 1.1045)
+					(xy 3.6316 1.1013) (xy 3.7632 1.0963) (xy 3.8547 1.0889) (xy 3.9139 1.0789) (xy 3.9485 1.0657)
+					(xy 3.9665 1.049) (xy 3.9755 1.0284) (xy 3.9862 1.0016) (xy 4.0716 0.8962) (xy 4.1992 0.8182) (xy 4.3388 0.7877)
+					(xy 4.5294 0.8183) (xy 4.6739 0.9097) (xy 4.7637 1.0576) (xy 4.7946 1.2575) (xy 4.7934 1.2895)
+					(xy 4.7484 1.4405) (xy 4.6513 1.5536) (xy 4.5188 1.6251) (xy 4.3681 1.6517) (xy 4.216 1.6298) (xy 4.0796 1.5559)
+					(xy 3.9758 1.4265) (xy 3.9144 1.3078) (xy 2.3876 1.2974) (xy 0.8608 1.2869) (xy 0.8589 1.1673)
+					(xy 4.1265 1.1673) (xy 4.133 1.2618) (xy 4.2137 1.3686) (xy 4.2166 1.3715) (xy 4.3147 1.4484) (xy 4.4024 1.4583)
+					(xy 4.5061 1.4045) (xy 4.5345 1.3801) (xy 4.5881 1.2758) (xy 4.5844 1.1562) (xy 4.5219 1.0535)
+					(xy 4.4364 1.0021) (xy 4.3122 0.9977) (xy 4.1955 1.0673) (xy 4.1931 1.0697) (xy 4.1265 1.1673)
+					(xy 0.8589 1.1673) (xy 0.8498 0.5898) (xy 0.8473 0.4608) (xy 0.8391 0.2212) (xy 0.8277 0.0369)
+					(xy 0.8136 -0.0839) (xy 0.7975 -0.1329) (xy 0.7872 -0.1537) (xy 0.7848 -0.2483) (xy 0.8019 -0.4183)
+					(xy 0.8384 -0.6647) (xy 0.8426 -0.6904) (xy 0.8731 -0.8817) (xy 0.8979 -1.0432) (xy 0.9146 -1.1586)
+					(xy 0.9207 -1.2115) (xy 0.9187 -1.2166) (xy 0.8636 -1.234) (xy 0.7391 -1.2422) (xy 0.5534 -1.2406)
+					(xy 0.1862 -1.2291) (xy -0.2954 0.0284) (xy -0.3814 0.2522) (xy -0.5059 0.572) (xy -0.6079 0.8259)
+					(xy -0.6905 1.0195) (xy -0.7569 1.1585) (xy -0.81 1.2486) (xy -0.8531 1.2955) (xy -0.8892 1.3048)
+					(xy -0.9214 1.2823) (xy -0.9529 1.2335) (xy -0.9586 1.2224) (xy -1.0054 1.118) (xy -1.0655 0.9673)
+					(xy -1.1336 0.7852) (xy -1.2045 0.587) (xy -1.2731 0.3877) (xy -1.334 0.2026) (xy -1.382 0.0467)
+					(xy -1.4121 -0.0649) (xy -1.4188 -0.117) (xy -1.3967 -0.1461) (xy -1.3269 -0.1634) (xy -1.2919 -0.1369)
+					(xy -1.2353 -0.0453) (xy -1.1617 0.1152) (xy -1.0692 0.3488) (xy -1.0536 0.3901) (xy -0.9845 0.5728)
+					(xy -0.9265 0.7256) (xy -0.8855 0.8338) (xy -0.867 0.8821) (xy -0.8507 0.8605) (xy -0.8108 0.7751)
+					(xy -0.7523 0.6364) (xy -0.6797 0.4554) (xy -0.5977 0.2431) (xy -0.5475 0.111) (xy -0.4421 -0.1666)
+					(xy -0.3347 -0.4495) (xy -0.2353 -0.711) (xy -0.1542 -0.9246) (xy -0.1408 -0.9598) (xy -0.0673 -1.1427)
+					(xy -0.0001 -1.296) (xy 0.0454 -1.3874) (xy 4.1279 -1.3874) (xy 4.129 -1.2995) (xy 4.1955 -1.2091)
+					(xy 4.265 -1.1556) (xy 4.3792 -1.1347) (xy 4.5061 -1.1914) (xy 4.5201 -1.2021) (xy 4.5844 -1.2999)
+					(xy 4.5829 -1.4168) (xy 4.515 -1.5286) (xy 4.4084 -1.5978) (xy 4.3012 -1.5903) (xy 4.1984 -1.5033)
+					(xy 4.1926 -1.4959) (xy 4.1279 -1.3874) (xy 0.0454 -1.3874) (xy 0.0539 -1.4045) (xy 0.0877 -1.4531)
+					(xy 0.1373 -1.46) (xy 0.2587 -1.4665) (xy 0.444 -1.4724) (xy 0.6851 -1.4776) (xy 0.9739 -1.4819)
+					(xy 1.3023 -1.4851) (xy 1.6625 -1.4873) (xy 2.0462 -1.4881) (xy 2.4325 -1.4883) (xy 2.8073 -1.4887)
+					(xy 3.115 -1.4897) (xy 3.3622 -1.4915) (xy 3.5558 -1.4945) (xy 3.7025 -1.4988) (xy 3.809 -1.5049)
+					(xy 3.8822 -1.513) (xy 3.9288 -1.5234) (xy 3.9556 -1.5364) (xy 3.9693 -1.5523) (xy 3.9768 -1.5713)
+					(xy 3.9799 -1.5798) (xy 4.0374 -1.6575) (xy 4.1292 -1.7309) (xy 4.176 -1.7571) (xy 4.3476 -1.8079)
+					(xy 4.5079 -1.7797)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.5971 3.4247) (xy 4.6149 3.4356) (xy 4.7053 3.5351) (xy 4.7699 3.6791) (xy 4.7946 3.8379)
+					(xy 4.7864 3.9109) (xy 4.7198 4.0607) (xy 4.6031 4.1801) (xy 4.4566 4.2446) (xy 4.3861 4.2504)
+					(xy 4.2225 4.2184) (xy 4.0746 4.1358) (xy 3.9731 4.0172) (xy 3.9139 3.9028) (xy 1.5387 3.9028)
+					(xy -0.8365 3.9028) (xy -0.8365 4.5418) (xy -0.8358 4.7693) (xy -0.8326 4.9468) (xy -0.8259 5.0657)
+					(xy -0.8146 5.137) (xy -0.7976 5.1717) (xy -0.7739 5.1808) (xy -0.7382 5.1917) (xy -0.7322 5.2507)
+					(xy -0.7391 5.2785) (xy -0.7595 5.3801) (xy -0.7864 5.5277) (xy -0.8158 5.7) (xy -0.8304 5.7876)
+					(xy -0.8596 5.9599) (xy -0.8844 6.1019) (xy -0.9006 6.1892) (xy -0.9228 6.299) (xy 1.4891 6.299)
+					(xy 3.901 6.299) (xy 3.9922 6.1756) (xy 4.02 6.1407) (xy 4.1652 6.0206) (xy 4.3305 5.9648) (xy 4.4979 5.9805)
+					(xy 4.4993 5.9809) (xy 4.6181 6.0427) (xy 4.7141 6.1276) (xy 4.755 6.1988) (xy 4.7913 6.3538) (xy 4.7832 6.5178)
+					(xy 4.7295 6.6538) (xy 4.7165 6.6709) (xy 4.5931 6.7705) (xy 4.4351 6.8292) (xy 4.2785 6.8328)
+					(xy 4.178 6.7934) (xy 4.071 6.7189) (xy 3.9888 6.6318) (xy 3.9559 6.5534) (xy 3.9525 6.5475) (xy 3.9281 6.5381)
+					(xy 3.876 6.5298) (xy 3.7916 6.5225) (xy 3.67 6.5163) (xy 3.5066 6.5109) (xy 3.2966 6.5062) (xy 3.0352 6.5022)
+					(xy 2.7177 6.4988) (xy 2.3393 6.4959) (xy 1.8953 6.4933) (xy 1.3809 6.4911) (xy 0.7914 6.489) (xy -2.373 6.4788)
+					(xy -2.3995 6.4099) (xy 4.1229 6.4099) (xy 4.1592 6.4933) (xy 4.2013 6.5463) (xy 4.3079 6.6045)
+					(xy 4.4278 6.6102) (xy 4.53 6.5579) (xy 4.5822 6.4687) (xy 4.5873 6.3474) (xy 4.5321 6.242) (xy 4.5005 6.216)
+					(xy 4.3844 6.1784) (xy 4.2636 6.2021) (xy 4.1689 6.2837) (xy 4.1345 6.3418) (xy 4.1229 6.4099)
+					(xy -2.3995 6.4099) (xy -2.8129 5.3335) (xy -2.8602 5.2105) (xy -2.9669 4.9346) (xy -3.0635 4.6871)
+					(xy -3.1463 4.4773) (xy -3.2117 4.3143) (xy -3.2559 4.2075) (xy -3.2753 4.166) (xy -3.2771 4.1656)
+					(xy -3.302 4.2035) (xy -3.3465 4.3013) (xy -3.4049 4.4457) (xy -3.4714 4.6235) (xy -3.4769 4.6386)
+					(xy -3.5468 4.8256) (xy -3.6113 4.9882) (xy -3.6634 5.1093) (xy -3.696 5.172) (xy -3.7162 5.1976)
+					(xy -3.7569 5.2191) (xy -3.8114 5.1774) (xy -3.8257 5.1609) (xy -3.8394 5.127) (xy -3.8384 5.0748)
+					(xy -3.8199 4.9932) (xy -3.7812 4.8707) (xy -3.7193 4.6963) (xy -3.6315 4.4586) (xy -3.5645 4.2821)
+					(xy -3.4849 4.082) (xy -3.4151 3.9165) (xy -3.3607 3.799) (xy -3.3276 3.7431) (xy -3.311 3.727)
+					(xy -3.2646 3.7048) (xy -3.2192 3.7485) (xy -3.2053 3.7751) (xy -3.1632 3.8714) (xy -3.0991 4.027)
+					(xy -3.0167 4.2326) (xy -2.9196 4.4789) (xy -2.8117 4.7566) (xy -2.6966 5.0565) (xy -2.2226 6.299)
+					(xy -1.5887 6.299) (xy -0.9548 6.299) (xy -0.9753 6.2092) (xy -0.9769 6.2021) (xy -0.992 6.1249)
+					(xy -1.0157 5.9967) (xy -1.0449 5.8361) (xy -1.0761 5.6615) (xy -1.1061 5.4915) (xy -1.1317 5.3445)
+					(xy -1.1494 5.2391) (xy -1.156 5.1938) (xy -1.1497 5.188) (xy -1.097 5.1808) (xy -1.0948 5.1807)
+					(xy -1.0739 5.1673) (xy -1.0581 5.124) (xy -1.0465 5.0408) (xy -1.0381 4.9078) (xy -1.032 4.7148)
+					(xy -1.0271 4.4519) (xy -1.0169 3.7657) (xy 4.1257 3.7657) (xy 4.1342 3.8597) (xy 4.2162 3.967)
+					(xy 4.2246 3.9753) (xy 4.3176 4.0401) (xy 4.4059 4.041) (xy 4.4131 4.0388) (xy 4.5252 3.97) (xy 4.5852 3.8671)
+					(xy 4.5863 3.7526) (xy 4.5219 3.6494) (xy 4.4364 3.598) (xy 4.3122 3.5936) (xy 4.1955 3.6632) (xy 4.1896 3.6692)
+					(xy 4.1257 3.7657) (xy -1.0169 3.7657) (xy -1.0163 3.7231) (xy 1.4672 3.7128) (xy 1.6572 3.712)
+					(xy 2.1368 3.7099) (xy 2.5446 3.7078) (xy 2.8864 3.7054) (xy 3.1681 3.7027) (xy 3.3957 3.6993)
+					(xy 3.575 3.695) (xy 3.7121 3.6897) (xy 3.8126 3.6831) (xy 3.8827 3.6751) (xy 3.9281 3.6654) (xy 3.9548 3.6537)
+					(xy 3.9687 3.64) (xy 3.9756 3.624) (xy 4.0228 3.5456) (xy 4.1034 3.4645) (xy 4.1507 3.4351) (xy 4.297 3.3911)
+					(xy 4.459 3.3866) (xy 4.5971 3.4247)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "WB50_Jack_TRS_6pin_Switched_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "WB50_Jack_TRS_6pin_Switched_1_1"
+			(pin passive line
+				(at 7.62 6.35 180)
+				(length 3.5)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 3.81 180)
+				(length 3.5)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 1.27 180)
+				(length 3.5)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 3.5)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -3.81 180)
+				(length 3.5)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -6.35 180)
+				(length 3.5)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "WB50_R_POT_3PIN"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "RV"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Potentiometer"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omeg"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PC20BU"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Law" "set per instance (A/B/log/lin)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RatedPower@40C" "0.4W (lin) / 0.2W (nonlin)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Track" "Conductive polymer"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation" "300±5°, effective 256°"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "3DModel" "${KIPRJMOD}/libraries/3dmodels/PC20BU.stp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "WB50_R_POT_3PIN_0_1"
+			(polyline
+				(pts
+					(xy -2 1.5) (xy 2 1.5)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.5) (xy 0 -1.5)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "WB50_R_POT_3PIN_1_1"
+			(pin passive line
+				(at -5 0 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.5 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5 0 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

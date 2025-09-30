@@ -1,0 +1,874 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cb659d0c-3eb0-4868-b68c-0c64bebe4021")
+	(paper "A4")
+	(lib_symbols
+		(symbol "wb50_symbols:WB50_EL34"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 4.064 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EL34"
+				(at -4.572 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "wb50_footprints:WB50_Socket_Octal_8Pin_D26.0mm_Hole2.0mm"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/el34.pdf"
+				(at 1.27 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Leistungspentode für Audioendverstärker"
+				(at -0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "tube valve röhre audio vakuum vacuum el34 6ca7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Octal*8*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WB50_EL34_1_1"
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.397) (xy -1.905 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.397) (xy -1.27 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.381) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.524) (xy -0.889 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.254) (xy -0.635 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.524 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.397) (xy 0.635 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -0.254) (xy 0.254 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.524) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.0002 -3.8098)
+					(mid -1.7963 -3.0659)
+					(end -2.5402 -1.2698)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 1.905)
+					(mid -1.7961 3.7011)
+					(end 0 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5398 -1.2698)
+					(mid 1.7959 -3.0659)
+					(end -0.0002 -3.8098)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.445)
+					(mid 1.7961 3.7011)
+					(end 2.54 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.524) (xy 1.651 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 0.635 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 1.905 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 2.032) (xy 1.905 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.397) (xy 1.27 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "g1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "g3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "g2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "k"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WB50_EL34_2_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "f"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "f"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_EL34")
+		(at 99.06 48.26 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34360503-4146-409b-8109-0a7bad3fc602")
+		(property "Reference" "V4"
+			(at 103.124 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL34"
+			(at 94.488 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Octal_8Pin_D26.0mm_Hole2.0mm"
+			(at 99.06 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/el34.pdf"
+			(at 100.33 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Leistungspentode für Audioendverstärker"
+			(at 98.552 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49effbd1-a2c2-438b-8b4a-8c4c3513de4c")
+		)
+		(pin "5"
+			(uuid "781c84ed-2acc-42ac-8a32-983fbb67bc99")
+		)
+		(pin "3"
+			(uuid "5f702feb-3533-49b0-b1cb-ca7064de507e")
+		)
+		(pin "4"
+			(uuid "f46438aa-6d18-4d75-9ac6-51180f78fde6")
+		)
+		(pin "2"
+			(uuid "3ed204cb-ad26-4ba3-b496-75a059da14ce")
+		)
+		(pin "7"
+			(uuid "82f2f640-bc64-49ca-8a12-7a227f6cbce7")
+		)
+		(pin "8"
+			(uuid "b4fc9e81-0bd6-4a59-b45e-9d1377cbe1c6")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/7a47930b-7a0a-4b99-87af-45202452246e"
+					(reference "V4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_EL34")
+		(at 160.02 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72bd0065-69b4-4e49-a146-28603018acfb")
+		(property "Reference" "V5"
+			(at 164.084 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL34"
+			(at 155.448 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Octal_8Pin_D26.0mm_Hole2.0mm"
+			(at 160.02 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/el34.pdf"
+			(at 161.29 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Leistungspentode für Audioendverstärker"
+			(at 159.512 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b3768609-36ea-4ea0-91f3-7cff0ff484db")
+		)
+		(pin "8"
+			(uuid "049ea3c9-c329-4c96-96f8-22285dbebabd")
+		)
+		(pin "1"
+			(uuid "28367d17-152a-4a04-8971-41d7a0ff8c7d")
+		)
+		(pin "4"
+			(uuid "2b8fff87-9186-4b86-93e5-9c3d18dff096")
+		)
+		(pin "7"
+			(uuid "b5b1fac8-5151-4b8f-ada3-807770adba9b")
+		)
+		(pin "5"
+			(uuid "e0f63287-59da-4df2-88ae-21252e94da33")
+		)
+		(pin "2"
+			(uuid "a4910cd1-6199-4f9c-8aee-8e79d903b33f")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/7a47930b-7a0a-4b99-87af-45202452246e"
+					(reference "V5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_EL34")
+		(at 189.23 50.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9074a707-0980-49f4-a8aa-2e9044a5c8c9")
+		(property "Reference" "V5"
+			(at 193.294 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL34"
+			(at 184.658 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Octal_8Pin_D26.0mm_Hole2.0mm"
+			(at 189.23 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/el34.pdf"
+			(at 190.5 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Leistungspentode für Audioendverstärker"
+			(at 188.722 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b3768609-36ea-4ea0-91f3-7cff0ff484db")
+		)
+		(pin "8"
+			(uuid "049ea3c9-c329-4c96-96f8-22285dbebabd")
+		)
+		(pin "1"
+			(uuid "28367d17-152a-4a04-8971-41d7a0ff8c7d")
+		)
+		(pin "4"
+			(uuid "2b8fff87-9186-4b86-93e5-9c3d18dff096")
+		)
+		(pin "7"
+			(uuid "b5b1fac8-5151-4b8f-ada3-807770adba9b")
+		)
+		(pin "5"
+			(uuid "e0f63287-59da-4df2-88ae-21252e94da33")
+		)
+		(pin "2"
+			(uuid "a4910cd1-6199-4f9c-8aee-8e79d903b33f")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/7a47930b-7a0a-4b99-87af-45202452246e"
+					(reference "V5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_EL34")
+		(at 101.6 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad52149f-58d1-4676-831e-14e44fb0bcd7")
+		(property "Reference" "V4"
+			(at 105.664 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL34"
+			(at 97.028 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Octal_8Pin_D26.0mm_Hole2.0mm"
+			(at 101.6 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/el34.pdf"
+			(at 102.87 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Leistungspentode für Audioendverstärker"
+			(at 101.092 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49effbd1-a2c2-438b-8b4a-8c4c3513de4c")
+		)
+		(pin "5"
+			(uuid "781c84ed-2acc-42ac-8a32-983fbb67bc99")
+		)
+		(pin "3"
+			(uuid "5f702feb-3533-49b0-b1cb-ca7064de507e")
+		)
+		(pin "4"
+			(uuid "f46438aa-6d18-4d75-9ac6-51180f78fde6")
+		)
+		(pin "2"
+			(uuid "3ed204cb-ad26-4ba3-b496-75a059da14ce")
+		)
+		(pin "7"
+			(uuid "82f2f640-bc64-49ca-8a12-7a227f6cbce7")
+		)
+		(pin "8"
+			(uuid "b4fc9e81-0bd6-4a59-b45e-9d1377cbe1c6")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/7a47930b-7a0a-4b99-87af-45202452246e"
+					(reference "V4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

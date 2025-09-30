@@ -1,0 +1,1054 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "17b95469-cef5-44f8-99e7-8df60ce8ca43")
+	(paper "A4")
+	(lib_symbols
+		(symbol "wb50_symbols:WB50_12AX7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 4.572 4.064 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "12AX7"
+				(at -5.588 4.064 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+				(at -1.016 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+				(at 0.254 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+				(at -1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "tube valve röhre audio vakuum vacuum ecc83 12ax7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Noval*9*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WB50_12AX7_0_1"
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WB50_12AX7_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.032)
+					(radius 0.568)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "T2"
+					(at 2.54 1.016 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "A/P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "C/K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WB50_12AX7_2_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.032)
+					(radius 0.568)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "T1\n"
+					(at 2.54 1.016 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "A/P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "C/K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WB50_12AX7_3_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "H1"
+					(at -1.27 1.524 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "H2"
+					(at 1.27 1.524 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 5.08)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_12AX7")
+		(at 120.65 82.55 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03190515-f076-437a-aba2-6397e9aaaa40")
+		(property "Reference" "V1"
+			(at 125.222 78.486 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12AX7"
+			(at 115.062 78.486 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+			(at 119.634 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+			(at 120.904 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+			(at 118.872 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ae15d01d-422e-4251-95be-2f45f27e8768")
+		)
+		(pin "2"
+			(uuid "2b9e3779-1990-4379-88c0-437d1b609a44")
+		)
+		(pin "1"
+			(uuid "56d24e99-be11-46cf-8da8-d868fc69294a")
+		)
+		(pin "3"
+			(uuid "439d6161-a228-4dd8-98cd-14dd1f9ef6bf")
+		)
+		(pin "6"
+			(uuid "5a89345e-1cad-4ab4-a237-8297e5b60213")
+		)
+		(pin "9"
+			(uuid "8140a579-8a0d-4196-a25d-f033e92d47cc")
+		)
+		(pin "5"
+			(uuid "3da77b7b-e935-4a44-a128-830bc5e70c9e")
+		)
+		(pin "4"
+			(uuid "692176cb-3f2c-4af4-bc22-79729ce3b5a2")
+		)
+		(pin "8"
+			(uuid "f9b1e48f-f5ee-40f5-ac23-22ef5f82ce1e")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
+					(reference "V1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_12AX7")
+		(at 179.07 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aaabd40-3927-45ac-a6a0-8bd0252c6c38")
+		(property "Reference" "V2"
+			(at 183.642 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12AX7"
+			(at 173.482 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+			(at 178.054 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+			(at 179.324 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+			(at 177.292 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbd5ca44-2c29-4d30-8c14-14345335ceb6")
+		)
+		(pin "1"
+			(uuid "40ddd188-a283-4dd7-a5e8-3e4bbeb9f900")
+		)
+		(pin "6"
+			(uuid "1a6790cd-2f51-4e40-8dfc-e3dfeb278cce")
+		)
+		(pin "8"
+			(uuid "2e43fe21-eb6d-485b-80a6-228a1a1e1dba")
+		)
+		(pin "5"
+			(uuid "d9331831-6b41-433f-b37f-8a88062b3052")
+		)
+		(pin "3"
+			(uuid "aa8c8003-6fc8-445c-a750-0ce4146ee3bf")
+		)
+		(pin "7"
+			(uuid "8a5f9d02-d59a-4b46-9801-b0cbc26b0c45")
+		)
+		(pin "9"
+			(uuid "e127987b-6055-4fcf-8fed-95e631ba7a92")
+		)
+		(pin "4"
+			(uuid "9093bbf2-7834-47ea-9e93-d551c285896a")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
+					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_12AX7")
+		(at 106.68 53.34 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773982a1-02d1-4efd-84d9-65146b2e9b46")
+		(property "Reference" "V1"
+			(at 111.252 49.276 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12AX7"
+			(at 101.092 49.276 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+			(at 105.664 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+			(at 106.934 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+			(at 104.902 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ae15d01d-422e-4251-95be-2f45f27e8768")
+		)
+		(pin "2"
+			(uuid "2b9e3779-1990-4379-88c0-437d1b609a44")
+		)
+		(pin "1"
+			(uuid "56d24e99-be11-46cf-8da8-d868fc69294a")
+		)
+		(pin "3"
+			(uuid "439d6161-a228-4dd8-98cd-14dd1f9ef6bf")
+		)
+		(pin "6"
+			(uuid "5a89345e-1cad-4ab4-a237-8297e5b60213")
+		)
+		(pin "9"
+			(uuid "8140a579-8a0d-4196-a25d-f033e92d47cc")
+		)
+		(pin "5"
+			(uuid "3da77b7b-e935-4a44-a128-830bc5e70c9e")
+		)
+		(pin "4"
+			(uuid "692176cb-3f2c-4af4-bc22-79729ce3b5a2")
+		)
+		(pin "8"
+			(uuid "f9b1e48f-f5ee-40f5-ac23-22ef5f82ce1e")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
+					(reference "V1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_12AX7")
+		(at 93.98 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae922a60-50b0-453f-a945-74d874fabe6f")
+		(property "Reference" "V1"
+			(at 98.552 78.486 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12AX7"
+			(at 88.392 78.486 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+			(at 92.964 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+			(at 94.234 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+			(at 92.202 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ae15d01d-422e-4251-95be-2f45f27e8768")
+		)
+		(pin "2"
+			(uuid "2b9e3779-1990-4379-88c0-437d1b609a44")
+		)
+		(pin "1"
+			(uuid "56d24e99-be11-46cf-8da8-d868fc69294a")
+		)
+		(pin "3"
+			(uuid "439d6161-a228-4dd8-98cd-14dd1f9ef6bf")
+		)
+		(pin "6"
+			(uuid "5a89345e-1cad-4ab4-a237-8297e5b60213")
+		)
+		(pin "9"
+			(uuid "8140a579-8a0d-4196-a25d-f033e92d47cc")
+		)
+		(pin "5"
+			(uuid "3da77b7b-e935-4a44-a128-830bc5e70c9e")
+		)
+		(pin "4"
+			(uuid "692176cb-3f2c-4af4-bc22-79729ce3b5a2")
+		)
+		(pin "8"
+			(uuid "f9b1e48f-f5ee-40f5-ac23-22ef5f82ce1e")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
+					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_12AX7")
+		(at 213.36 81.28 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0562ac0-a40d-4c48-a8d4-429241c0f2d8")
+		(property "Reference" "V2"
+			(at 217.932 77.216 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12AX7"
+			(at 207.772 77.216 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+			(at 212.344 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+			(at 213.614 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+			(at 211.582 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbd5ca44-2c29-4d30-8c14-14345335ceb6")
+		)
+		(pin "1"
+			(uuid "40ddd188-a283-4dd7-a5e8-3e4bbeb9f900")
+		)
+		(pin "6"
+			(uuid "1a6790cd-2f51-4e40-8dfc-e3dfeb278cce")
+		)
+		(pin "8"
+			(uuid "2e43fe21-eb6d-485b-80a6-228a1a1e1dba")
+		)
+		(pin "5"
+			(uuid "d9331831-6b41-433f-b37f-8a88062b3052")
+		)
+		(pin "3"
+			(uuid "aa8c8003-6fc8-445c-a750-0ce4146ee3bf")
+		)
+		(pin "7"
+			(uuid "8a5f9d02-d59a-4b46-9801-b0cbc26b0c45")
+		)
+		(pin "9"
+			(uuid "e127987b-6055-4fcf-8fed-95e631ba7a92")
+		)
+		(pin "4"
+			(uuid "9093bbf2-7834-47ea-9e93-d551c285896a")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
+					(reference "V2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wb50_symbols:WB50_12AX7")
+		(at 195.58 43.18 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2904663-89e7-45ed-b933-70ab3988615a")
+		(property "Reference" "V2"
+			(at 200.152 39.116 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12AX7"
+			(at 189.992 39.116 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Socket_Noval_9Pin_D21.0mm_Hole1.8mm"
+			(at 194.564 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jj-electronic.de/images/stories/product/tubes/pdf/ecc83s.pdf"
+			(at 195.834 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Doppeltriode, High-µ-Triode für Vorverstärker"
+			(at 193.802 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbd5ca44-2c29-4d30-8c14-14345335ceb6")
+		)
+		(pin "1"
+			(uuid "40ddd188-a283-4dd7-a5e8-3e4bbeb9f900")
+		)
+		(pin "6"
+			(uuid "1a6790cd-2f51-4e40-8dfc-e3dfeb278cce")
+		)
+		(pin "8"
+			(uuid "2e43fe21-eb6d-485b-80a6-228a1a1e1dba")
+		)
+		(pin "5"
+			(uuid "d9331831-6b41-433f-b37f-8a88062b3052")
+		)
+		(pin "3"
+			(uuid "aa8c8003-6fc8-445c-a750-0ce4146ee3bf")
+		)
+		(pin "7"
+			(uuid "8a5f9d02-d59a-4b46-9801-b0cbc26b0c45")
+		)
+		(pin "9"
+			(uuid "e127987b-6055-4fcf-8fed-95e631ba7a92")
+		)
+		(pin "4"
+			(uuid "9093bbf2-7834-47ea-9e93-d551c285896a")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
+					(reference "V2")
+					(unit 3)
+				)
+			)
+		)
+	)
+)
