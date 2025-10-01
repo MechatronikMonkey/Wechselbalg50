@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 91.44 34.29)
-		(size 36.83 12.7)
+		(at 22.86 80.01)
+		(size 36.83 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "71fb01be-e2af-43a2-ab1d-1ec35077c210")
 		(property "Sheetname" "Connectors"
-			(at 91.44 33.5784 0)
+			(at 22.86 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,22 @@
 			)
 		)
 		(property "Sheetfile" "schematics/connectors.kicad_sch"
-			(at 91.44 47.5746 0)
+			(at 22.86 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Audio_IN" output
+			(at 59.69 111.76 0)
+			(uuid "fda9bf6e-0ecd-49aa-82b2-591be0101aef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +58,8 @@
 		)
 	)
 	(sheet
-		(at 44.45 113.03)
-		(size 46.99 12.7)
+		(at 210.82 91.44)
+		(size 46.99 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +74,7 @@
 		)
 		(uuid "7a47930b-7a0a-4b99-87af-45202452246e")
 		(property "Sheetname" "Power Amp"
-			(at 44.45 112.3184 0)
+			(at 210.82 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +83,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/powerAmp.kicad_sch"
-			(at 44.45 126.3146 0)
+			(at 210.82 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +100,8 @@
 		)
 	)
 	(sheet
-		(at 110.49 76.2)
-		(size 41.91 13.97)
+		(at 152.4 105.41)
+		(size 19.05 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +116,7 @@
 		)
 		(uuid "94f97982-768b-42a9-8fe1-8b9d029f0dfa")
 		(property "Sheetname" "Phase Inverter"
-			(at 110.49 75.4884 0)
+			(at 152.4 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/phaseInverter.kicad_sch"
-			(at 110.49 90.7546 0)
+			(at 152.4 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,8 +184,8 @@
 		)
 	)
 	(sheet
-		(at 40.64 73.66)
-		(size 49.53 15.24)
+		(at 95.25 102.87)
+		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +200,7 @@
 		)
 		(uuid "f1b5402f-417b-4ade-9709-94213592078e")
 		(property "Sheetname" "Pre Amp"
-			(at 40.64 72.9484 0)
+			(at 95.25 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +209,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/preamp.kicad_sch"
-			(at 40.64 89.4846 0)
+			(at 95.25 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +226,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 34.29)
+		(at 207.01 36.83)
 		(size 40.64 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +242,7 @@
 		)
 		(uuid "fb2444d2-b86f-4030-b036-b8cf56e0db72")
 		(property "Sheetname" "Controls"
-			(at 39.37 33.5784 0)
+			(at 207.01 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +251,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/controls.kicad_sch"
-			(at 39.37 47.5746 0)
+			(at 207.01 50.1146 0)
 			(show_name yes)
 			(effects
 				(font

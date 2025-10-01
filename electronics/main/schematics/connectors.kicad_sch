@@ -112,6 +112,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "wb50_symbols:WB50_Jack_TRS_6pin_Switched"
 			(pin_numbers
 				(hide yes)
@@ -558,6 +659,50 @@
 		)
 		(uuid "be947dc4-853a-4695-a1d4-80bf016dfcb9")
 	)
+	(junction
+		(at 58.42 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8648bccd-680d-4bc7-b9b5-1e608efcdf87")
+	)
+	(junction
+		(at 58.42 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c5bebb3-d2f0-44f2-9a0f-6c141a47b9d1")
+	)
+	(junction
+		(at 58.42 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a96f099-ed17-4a8d-bac2-047e08a02f99")
+	)
+	(junction
+		(at 53.34 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6facff9-605e-4d4f-a176-c5d4f7625ffc")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 58.42 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2746f712-c8a4-4452-8473-1e254395f9d4")
+	)
+	(wire
+		(pts
+			(xy 53.34 26.67) (xy 58.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b578577-336c-41ca-9617-cae88e427144")
+	)
 	(wire
 		(pts
 			(xy 40.64 185.42) (xy 54.61 185.42)
@@ -570,6 +715,96 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 36.83) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3739b957-595f-4f68-9b07-39ef2da5927c")
+	)
+	(wire
+		(pts
+			(xy 58.42 29.21) (xy 58.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439b3c4f-25e3-45de-8aff-0c15b5da80ea")
+	)
+	(wire
+		(pts
+			(xy 49.53 31.75) (xy 58.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4e1476-5704-45cb-b9dc-5e469b2b74af")
+	)
+	(wire
+		(pts
+			(xy 58.42 39.37) (xy 58.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed5a16f-c076-4738-a900-4ed1e5427d93")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 53.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8472578d-1d90-441d-8ae6-c7a3b5a9c75d")
+	)
+	(wire
+		(pts
+			(xy 49.53 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83d96cb-f4e6-47fa-8da3-a215d1765764")
+	)
+	(wire
+		(pts
+			(xy 49.53 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b212f431-505a-41c4-816c-6e43435c07b3")
+	)
+	(wire
+		(pts
+			(xy 58.42 31.75) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81b1f4c-d35f-4100-a3f9-3b74210c432b")
+	)
+	(wire
+		(pts
+			(xy 49.53 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df64a8fc-42db-4a09-bd77-39bb20296616")
+	)
+	(wire
+		(pts
 			(xy 40.64 175.26) (xy 54.61 175.26)
 		)
 		(stroke
@@ -577,6 +812,16 @@
 			(type default)
 		)
 		(uuid "eb9b5885-5ab7-41fc-a6a2-acc35de017eb")
+	)
+	(wire
+		(pts
+			(xy 49.53 26.67) (xy 53.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc646e07-64f1-4c7d-93ac-08a53e98c6ab")
 	)
 	(global_label "V_Aux_N"
 		(shape passive)
@@ -621,6 +866,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "Audio_IN"
+		(shape output)
+		(at 58.42 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16cccb25-1fb7-4190-bce0-e550c1386562")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -949,7 +1205,7 @@
 	)
 	(symbol
 		(lib_id "wb50_symbols:WB50_Jack_TRS_6pin_Switched")
-		(at 41.91 35.56 0)
+		(at 41.91 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -958,7 +1214,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b575738-59da-4b55-9dfe-ced894fe13e2")
 		(property "Reference" "J1"
-			(at 40.64 20.32 0)
+			(at 40.64 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +1222,7 @@
 			)
 		)
 		(property "Value" "IN"
-			(at 40.64 22.86 0)
+			(at 40.64 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1230,7 @@
 			)
 		)
 		(property "Footprint" "wb50_footprints:WB50_Jack_TRS_6pin_16.2mm"
-			(at 40.64 25.4 0)
+			(at 40.64 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +1238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 35.56 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 35.56 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,6 +1549,72 @@
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/71fb01be-e2af-43a2-ab1d-1ec35077c210"
 					(reference "X5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e94880b7-6c2c-49dd-a8cb-455ad09d2f5d")
+		(property "Reference" "#PWR07"
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-AUD"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f23c32-f693-4a8e-adb5-d6da52d0c8d1")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/71fb01be-e2af-43a2-ab1d-1ec35077c210"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
