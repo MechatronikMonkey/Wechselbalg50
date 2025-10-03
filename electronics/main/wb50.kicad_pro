@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -650,6 +650,10 @@
     [
       "c06d43ef-ca8e-4531-a839-7ed47019a243",
       "Aux Power"
+    ],
+    [
+      "f74de693-82a9-4691-89de-552f27ba6ee3",
+      "Tone Stack"
     ]
   ],
   "text_variables": {}

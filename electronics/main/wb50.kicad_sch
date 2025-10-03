@@ -5,6 +5,36 @@
 	(uuid "6805e3ef-87bd-473d-890f-05ae2da73c1a")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 144.78 111.76) (xy 170.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3543d1e7-30ff-4f29-9b25-c97838752f3b")
+	)
+	(wire
+		(pts
+			(xy 59.69 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd51a883-6f68-4019-9ffa-8b6a5fb184fc")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdcd352-7c87-48d9-a0df-82f89a4b3ecc")
+	)
 	(sheet
 		(at 22.86 80.01)
 		(size 36.83 38.1)
@@ -58,7 +88,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 91.44)
+		(at 223.52 91.44)
 		(size 46.99 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -74,7 +104,7 @@
 		)
 		(uuid "7a47930b-7a0a-4b99-87af-45202452246e")
 		(property "Sheetname" "Power Amp"
-			(at 210.82 90.7284 0)
+			(at 223.52 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +113,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/powerAmp.kicad_sch"
-			(at 210.82 118.6946 0)
+			(at 223.52 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,7 +130,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 105.41)
+		(at 170.18 104.14)
 		(size 19.05 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -116,7 +146,7 @@
 		)
 		(uuid "94f97982-768b-42a9-8fe1-8b9d029f0dfa")
 		(property "Sheetname" "Phase Inverter"
-			(at 152.4 104.6984 0)
+			(at 170.18 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,12 +155,52 @@
 			)
 		)
 		(property "Sheetfile" "schematics/phaseInverter.kicad_sch"
-			(at 152.4 119.9646 0)
+			(at 170.18 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PI_IN" input
+			(at 170.18 111.76 180)
+			(uuid "9b3fb5a7-fe5c-4b76-bdae-5676f41d9575")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFB_OUT" output
+			(at 170.18 107.95 180)
+			(uuid "7430a65a-19f4-424d-89f3-49991cfd8b75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PI_OUT_B" output
+			(at 189.23 113.03 0)
+			(uuid "73caba87-d137-453c-8923-84083c799f03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PI_OUT_A" output
+			(at 189.23 110.49 0)
+			(uuid "76cd9b6c-5c04-4de8-8ae2-c2f450f4d749")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -184,7 +254,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 102.87)
+		(at 78.74 102.87)
 		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -200,7 +270,7 @@
 		)
 		(uuid "f1b5402f-417b-4ade-9709-94213592078e")
 		(property "Sheetname" "Pre Amp"
-			(at 95.25 102.1584 0)
+			(at 78.74 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,7 +279,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/preamp.kicad_sch"
-			(at 95.25 118.6946 0)
+			(at 78.74 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,10 +287,92 @@
 				(justify left top)
 			)
 		)
+		(pin "Audio_IN" input
+			(at 78.74 111.76 180)
+			(uuid "9b98c603-fc95-45d0-ba41-8b9a7764cd83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PreAmp_OUT" output
+			(at 100.33 107.95 0)
+			(uuid "bcca172a-9809-4412-ba6b-a71ffa7a74c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 102.87)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f74de693-82a9-4691-89de-552f27ba6ee3")
+		(property "Sheetname" "Tone Stack"
+			(at 123.19 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/toneStack.kicad_sch"
+			(at 123.19 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ToneStack_IN" input
+			(at 123.19 107.95 180)
+			(uuid "c0b6b3c2-d45c-4109-8590-898873e15987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ToneStack_OUT" output
+			(at 144.78 111.76 0)
+			(uuid "850fad73-4621-4bbd-8406-4e40d3b25e38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(page "8")
 				)
 			)
 		)

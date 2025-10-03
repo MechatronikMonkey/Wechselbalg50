@@ -1,6 +1,6 @@
-(module "RES-TH_BD5.0-L15.5-P19.50-D0.7" (layer F.Cu) (tedit 68DCD5D3)
+(module "RES-TH_BD5.0-L15.5-P19.50-D0.7" (layer F.Cu) (tedit 68DCDF45)
   (descr "RES-TH_BD5.0-L15.5-P19.50-D0.7 footprint")
-  (tags "RES-TH_BD5.0-L15.5-P19.50-D0.7 footprint C2903451")
+  (tags "RES-TH_BD5.0-L15.5-P19.50-D0.7 footprint C2903458")
   (attr through_hole)
   (fp_text reference REF** (at 0 -4.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

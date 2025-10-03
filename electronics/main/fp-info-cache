@@ -1,4 +1,4 @@
-26660999053826041
+26687389772955045
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106288,9 +106288,16 @@ CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD footprint C487461
 2
 2
 footprints
+CAP-TH_BD6.3-P2.50-D1.0-FD
+CAP-TH_BD6.3-P2.50-D1.0-FD footprint
+CAP-TH_BD6.3-P2.50-D1.0-FD footprint C2029
+0
+2
+2
+footprints
 CAP-TH_BD16.0-P7.50-D1.2-FD
 CAP-TH_BD16.0-P7.50-D1.2-FD footprint
-CAP-TH_BD16.0-P7.50-D1.2-FD footprint C442803
+CAP-TH_BD16.0-P7.50-D1.2-FD footprint C10737
 0
 2
 2
@@ -106316,6 +106323,83 @@ MICRO-USB-SMD_5P-P0.65-H-F_C10418 footprint C10418
 9
 9
 footprints
+RELAY-TH_G5V-1
+RELAY-TH_G5V-1 footprint
+RELAY-TH_G5V-1 footprint C31113
+0
+6
+6
+footprints
+RES-TH_BD2.4-L6.3-P10.30-D0.6
+RES-TH_BD2.4-L6.3-P10.30-D0.6 footprint
+RES-TH_BD2.4-L6.3-P10.30-D0.6 footprint C1370569
+0
+2
+2
+footprints
+RES-TH_BD2.7-L6.2-P10.20-D0.4
+RES-TH_BD2.7-L6.2-P10.20-D0.4 footprint
+RES-TH_BD2.7-L6.2-P10.20-D0.4 footprint C2894565
+0
+2
+2
+footprints
+RES-TH_BD3.0-L9.5-P13.50-D0.6
+RES-TH_BD3.0-L9.5-P13.50-D0.6 footprint
+RES-TH_BD3.0-L9.5-P13.50-D0.6 footprint C70845
+0
+2
+2
+footprints
+RES-TH_BD3.5-L9.0-P13.00-D0.5
+RES-TH_BD3.5-L9.0-P13.00-D0.5 footprint
+RES-TH_BD3.5-L9.0-P13.00-D0.5 footprint C2894491
+0
+2
+2
+footprints
+RES-TH_BD4.0-L10.5-P14.50-D0.6
+RES-TH_BD4.0-L10.5-P14.50-D0.6 footprint
+RES-TH_BD4.0-L10.5-P14.50-D0.6 footprint C167619
+0
+2
+2
+footprints
+RES-TH_BD4.0-L11.5-P15.50-D0.7
+RES-TH_BD4.0-L11.5-P15.50-D0.7 footprint
+RES-TH_BD4.0-L11.5-P15.50-D0.7 footprint C120647
+0
+2
+2
+footprints
+RES-TH_BD4.5-L11.0-P15.00-D0.7
+RES-TH_BD4.5-L11.0-P15.00-D0.7 footprint
+RES-TH_BD4.5-L11.0-P15.00-D0.7 footprint C2897121
+0
+2
+2
+footprints
+RES-TH_BD5.0-L15.5-P19.50-D0.7
+RES-TH_BD5.0-L15.5-P19.50-D0.7 footprint
+RES-TH_BD5.0-L15.5-P19.50-D0.7 footprint C2903458
+0
+2
+2
+footprints
+RES-TH_BD5.5-L15.0-P19.00-D0.8
+RES-TH_BD5.5-L15.0-P19.00-D0.8 footprint
+RES-TH_BD5.5-L15.0-P19.00-D0.8 footprint C120810
+0
+2
+2
+footprints
+RES-TH_BD9.5-L22.0-P26.00-D0.7
+RES-TH_BD9.5-L22.0-P26.00-D0.7 footprint
+RES-TH_BD9.5-L22.0-P26.00-D0.7 footprint C334294
+0
+2
+2
+footprints
 TO-220-3_L10.0-W4.5-P2.54-L
 TO-220-3_L10.0-W4.5-P2.54-L footprint
 TO-220-3_L10.0-W4.5-P2.54-L footprint C2914
@@ -106329,6 +106413,27 @@ TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL footprint C13456
 0
 3
 3
+wb50_footprints
+MICA_CAP_L15.5_W3.6_P8.7
+
+
+0
+2
+2
+wb50_footprints
+MUSTARD_CAP_D8.5_L20.5_P25.5
+
+
+0
+2
+2
+wb50_footprints
+MUSTARD_CAP_D10_L32_P40.4
+
+
+0
+2
+2
 wb50_footprints
 WB50_Jack_TRS_6pin_16.2mm
 
