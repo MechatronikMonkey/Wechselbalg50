@@ -3716,18 +3716,6 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -1.2551 148.2744)
-				(mid -2.2843 149.277)
-				(end -1.2817 150.3062)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -0.254 3.048) (xy 6.35 3.048)

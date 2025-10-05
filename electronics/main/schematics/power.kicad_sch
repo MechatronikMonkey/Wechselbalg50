@@ -1980,6 +1980,16 @@
 		)
 		(uuid "6fbaeb46-0286-4d77-b636-43db8386993b")
 	)
+	(text "Kopplungssimulation"
+		(exclude_from_sim no)
+		(at 115.316 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9f74df5-d54e-4596-990a-2fc0cf3ea8b7")
+	)
 	(junction
 		(at 237.49 133.35)
 		(diameter 0)
@@ -1993,16 +2003,16 @@
 		(uuid "13f25a08-fb3d-491e-91f7-6bde1c3ed8c2")
 	)
 	(junction
+		(at 179.07 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ee64dd7-458a-4284-ae43-38c3176d8010")
+	)
+	(junction
 		(at 185.42 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d4c2098-b45b-4a4a-a5e2-9ac9fa3c5642")
-	)
-	(junction
-		(at 179.07 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "673e70a7-ef22-4d3e-afb4-e7301aa8120e")
 	)
 	(junction
 		(at 82.55 88.9)
@@ -2091,16 +2101,6 @@
 			(type default)
 		)
 		(uuid "0cd82b3f-3f59-401b-9f2f-6d8918a9fc6a")
-	)
-	(wire
-		(pts
-			(xy 208.28 148.59) (xy 208.28 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0db782-98d5-4445-888d-fa3e20df062e")
 	)
 	(wire
 		(pts
@@ -2234,6 +2234,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 133.35) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474fd16e-9765-48fe-bf40-ea76f0aa9239")
+	)
+	(wire
+		(pts
 			(xy 254 101.6) (xy 254 102.87)
 		)
 		(stroke
@@ -2301,16 +2311,6 @@
 			(type default)
 		)
 		(uuid "58ffb327-e8c0-4825-bf78-10b594b0e1b0")
-	)
-	(wire
-		(pts
-			(xy 179.07 148.59) (xy 179.07 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6390ac08-9316-45d6-9e6b-934b08818e09")
 	)
 	(wire
 		(pts
@@ -2394,23 +2394,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 133.35) (xy 179.07 133.35)
+			(xy 179.07 148.59) (xy 179.07 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8700e858-f884-462c-a6e2-c6fa1caa5f47")
-	)
-	(wire
-		(pts
-			(xy 179.07 133.35) (xy 179.07 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff31529-b25a-4ddc-a55e-509e394dc720")
+		(uuid "88390713-d774-4712-8702-da0459182083")
 	)
 	(wire
 		(pts
@@ -2471,16 +2461,6 @@
 			(type default)
 		)
 		(uuid "a6928f05-c797-4805-ba8c-dae21fb556af")
-	)
-	(wire
-		(pts
-			(xy 208.28 138.43) (xy 208.28 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a730b16c-4ac5-404a-9495-49feb7ef9c22")
 	)
 	(wire
 		(pts
@@ -2554,6 +2534,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 133.35) (xy 179.07 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf66242-c25b-4174-8ade-62d0569475ca")
+	)
+	(wire
+		(pts
 			(xy 19.05 88.9) (xy 35.56 88.9)
 		)
 		(stroke
@@ -2584,13 +2574,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 133.35) (xy 166.37 133.35)
+			(xy 166.37 133.35) (xy 179.07 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca2b7ed2-91df-44c7-8583-096f4fd62dbf")
+	)
+	(wire
+		(pts
+			(xy 208.28 133.35) (xy 208.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb89afbc-91c9-4f9a-a317-f88f46355c33")
 	)
 	(wire
 		(pts
@@ -2651,6 +2651,16 @@
 			(type default)
 		)
 		(uuid "d7963423-c06e-41c5-b4f7-0a4c40844a48")
+	)
+	(wire
+		(pts
+			(xy 208.28 148.59) (xy 208.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e352fcd0-ae87-40a4-8ca5-2d316c1dd05a")
 	)
 	(wire
 		(pts
@@ -3518,7 +3528,7 @@
 	(symbol
 		(lib_id "jlcpcb:10uf/100V")
 		(at 179.07 143.51 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3527,25 +3537,25 @@
 		(fields_autoplaced yes)
 		(uuid "43312800-028b-49b5-951d-60572fea4f6d")
 		(property "Reference" "C14"
-			(at 175.26 141.8589 0)
+			(at 175.26 142.6209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uf/100V"
-			(at 175.26 144.3989 0)
+			(at 175.26 145.1609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "footprints:CAP-TH_BD6.3-P2.50-D1.0-FD"
-			(at 179.07 153.67 0)
+			(at 179.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/44807.html"
-			(at 181.356 143.383 0)
+			(at 176.784 143.637 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3610,7 @@
 	(symbol
 		(lib_id "jlcpcb:10uf/100V")
 		(at 208.28 143.51 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3609,25 +3619,25 @@
 		(fields_autoplaced yes)
 		(uuid "4ccf2278-45b7-4280-80bc-5dae5037ca73")
 		(property "Reference" "C13"
-			(at 204.47 141.8589 0)
+			(at 204.47 142.6209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uf/100V"
-			(at 204.47 144.3989 0)
+			(at 204.47 145.1609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "footprints:CAP-TH_BD6.3-P2.50-D1.0-FD"
-			(at 208.28 153.67 0)
+			(at 208.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3647,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/44807.html"
-			(at 210.566 143.383 0)
+			(at 205.994 143.637 0)
 			(effects
 				(font
 					(size 1.27 1.27)
