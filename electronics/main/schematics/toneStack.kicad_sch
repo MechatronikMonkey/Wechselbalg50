@@ -3146,7 +3146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06e95ca0-7f37-477a-a497-5a0188c770e9")
-		(property "Reference" "Audio-To-FX"
+		(property "Reference" "Audio-To-FX1"
 			(at 279.4 143.5099 0)
 			(effects
 				(font
@@ -3164,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 283.21 144.78 0)
 			(effects
 				(font
@@ -3197,7 +3197,7 @@
 		(instances
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f74de693-82a9-4691-89de-552f27ba6ee3"
-					(reference "Audio-To-FX")
+					(reference "Audio-To-FX1")
 					(unit 1)
 				)
 			)
@@ -4959,7 +4959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2cfc75e-8f33-48e7-b7c9-372f6c98cfae")
-		(property "Reference" "Audo-From-FX"
+		(property "Reference" "Audo-From-FX1"
 			(at 297.18 143.5099 0)
 			(effects
 				(font
@@ -4977,7 +4977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 300.99 144.78 0)
 			(effects
 				(font
@@ -5010,7 +5010,7 @@
 		(instances
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f74de693-82a9-4691-89de-552f27ba6ee3"
-					(reference "Audo-From-FX")
+					(reference "Audo-From-FX1")
 					(unit 1)
 				)
 			)

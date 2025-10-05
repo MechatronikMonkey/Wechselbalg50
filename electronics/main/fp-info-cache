@@ -1,4 +1,4 @@
-26687389772955045
+26701472939113560
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106288,6 +106288,13 @@ CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD footprint C487461
 2
 2
 footprints
+CAP-TH_BD5.0-P2.00-D0.8-FD
+CAP-TH_BD5.0-P2.00-D0.8-FD footprint
+CAP-TH_BD5.0-P2.00-D0.8-FD footprint C89792
+0
+2
+2
+footprints
 CAP-TH_BD6.3-P2.50-D1.0-FD
 CAP-TH_BD6.3-P2.50-D1.0-FD footprint
 CAP-TH_BD6.3-P2.50-D1.0-FD footprint C2029
@@ -106295,9 +106302,44 @@ CAP-TH_BD6.3-P2.50-D1.0-FD footprint C2029
 2
 2
 footprints
+CAP-TH_BD10.0-P5.00-D1.0-FD
+CAP-TH_BD10.0-P5.00-D1.0-FD footprint
+CAP-TH_BD10.0-P5.00-D1.0-FD footprint C45081
+0
+2
+2
+footprints
+CAP-TH_BD12.5-P5.00-D0.6-FD
+CAP-TH_BD12.5-P5.00-D0.6-FD footprint
+CAP-TH_BD12.5-P5.00-D0.6-FD footprint C443401
+0
+2
+2
+footprints
 CAP-TH_BD16.0-P7.50-D1.2-FD
 CAP-TH_BD16.0-P7.50-D1.2-FD footprint
 CAP-TH_BD16.0-P7.50-D1.2-FD footprint C10737
+0
+2
+2
+footprints
+DO-41_BD2.4-L4.7-P8.70-D0.9-RD
+DO-41_BD2.4-L4.7-P8.70-D0.9-RD footprint
+DO-41_BD2.4-L4.7-P8.70-D0.9-RD footprint C960666
+0
+2
+2
+footprints
+FUSE-SMD_L22.7-W10.0
+FUSE-SMD_L22.7-W10.0 footprint
+FUSE-SMD_L22.7-W10.0 footprint C41371867
+0
+2
+2
+footprints
+FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G
+FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G footprint
+FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G footprint C3204125
 0
 2
 2
@@ -106330,6 +106372,13 @@ RELAY-TH_G5V-1 footprint C31113
 6
 6
 footprints
+RES-ADJ-SMD_3314G-1-103E
+RES-ADJ-SMD_3314G-1-103E footprint
+RES-ADJ-SMD_3314G-1-103E footprint C719184
+0
+3
+3
+footprints
 RES-TH_BD2.4-L6.3-P10.30-D0.6
 RES-TH_BD2.4-L6.3-P10.30-D0.6 footprint
 RES-TH_BD2.4-L6.3-P10.30-D0.6 footprint C1370569
@@ -106339,7 +106388,7 @@ RES-TH_BD2.4-L6.3-P10.30-D0.6 footprint C1370569
 footprints
 RES-TH_BD2.7-L6.2-P10.20-D0.4
 RES-TH_BD2.7-L6.2-P10.20-D0.4 footprint
-RES-TH_BD2.7-L6.2-P10.20-D0.4 footprint C2894565
+RES-TH_BD2.7-L6.2-P10.20-D0.4 footprint C2903254
 0
 2
 2
@@ -106389,6 +106438,13 @@ footprints
 RES-TH_BD5.5-L15.0-P19.00-D0.8
 RES-TH_BD5.5-L15.0-P19.00-D0.8 footprint
 RES-TH_BD5.5-L15.0-P19.00-D0.8 footprint C120810
+0
+2
+2
+footprints
+RES-TH_BD6.0-L17.5-P21.50-D0.8
+RES-TH_BD6.0-L17.5-P21.50-D0.8 footprint
+RES-TH_BD6.0-L17.5-P21.50-D0.8 footprint C121969
 0
 2
 2

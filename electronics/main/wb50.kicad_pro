@@ -628,10 +628,6 @@
       "Root"
     ],
     [
-      "fb2444d2-b86f-4030-b036-b8cf56e0db72",
-      "Controls"
-    ],
-    [
       "71fb01be-e2af-43a2-ab1d-1ec35077c210",
       "Connectors"
     ],
@@ -650,6 +646,10 @@
     [
       "c06d43ef-ca8e-4531-a839-7ed47019a243",
       "Aux Power"
+    ],
+    [
+      "1d95444c-de5c-440e-b338-1d9c97a29411",
+      "Power"
     ],
     [
       "f74de693-82a9-4691-89de-552f27ba6ee3",

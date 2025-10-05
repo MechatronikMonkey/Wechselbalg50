@@ -7,6 +7,36 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 152.4 46.99) (xy 200.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11546fa9-432f-4dde-ba1b-cecb99382e1e")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27427324-1bd7-457b-be4f-471688b3069c")
+	)
+	(wire
+		(pts
+			(xy 158.75 88.9) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b843b21-44b9-4b62-8dd4-215fc8bbfa7f")
+	)
+	(wire
+		(pts
 			(xy 144.78 111.76) (xy 170.18 111.76)
 		)
 		(stroke
@@ -14,6 +44,46 @@
 			(type default)
 		)
 		(uuid "3543d1e7-30ff-4f29-9b25-c97838752f3b")
+	)
+	(wire
+		(pts
+			(xy 170.18 107.95) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6545c5-18e3-4e6f-8b5a-4bcb65e8279d")
+	)
+	(wire
+		(pts
+			(xy 189.23 110.49) (xy 223.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4193be01-129d-4e85-8efc-e952c7a50dfc")
+	)
+	(wire
+		(pts
+			(xy 189.23 113.03) (xy 223.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fce8168-3e44-48e9-91e9-9237027e212e")
+	)
+	(wire
+		(pts
+			(xy 200.66 46.99) (xy 200.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9692a3a5-0587-4a61-b4bc-2e998620f61a")
 	)
 	(wire
 		(pts
@@ -27,6 +97,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 100.33) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10a802e-b8b2-4dc9-a9ba-9eda15117443")
+	)
+	(wire
+		(pts
 			(xy 100.33 107.95) (xy 123.19 107.95)
 		)
 		(stroke
@@ -34,6 +114,58 @@
 			(type default)
 		)
 		(uuid "efdcd352-7c87-48d9-a0df-82f89a4b3ecc")
+	)
+	(sheet
+		(at 113.03 39.37)
+		(size 39.37 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d95444c-de5c-440e-b338-1d9c97a29411")
+		(property "Sheetname" "Power"
+			(at 113.03 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/power.kicad_sch"
+			(at 113.03 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Bias-Set" output
+			(at 152.4 46.99 0)
+			(uuid "3c412c9d-4218-43dc-b0e2-813cf68ce654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(page "8")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 22.86 80.01)
@@ -72,6 +204,16 @@
 		(pin "Audio_IN" output
 			(at 59.69 111.76 0)
 			(uuid "fda9bf6e-0ecd-49aa-82b2-591be0101aef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NFB_IN" input
+			(at 59.69 88.9 0)
+			(uuid "d228492f-8683-4592-a3a4-c32bf495a5e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,6 +261,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "A_IN" input
+			(at 223.52 110.49 180)
+			(uuid "1b2acb11-1928-4249-a427-abb69997b86c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B_IN" input
+			(at 223.52 113.03 180)
+			(uuid "dada2213-d749-4d32-951e-136f3d46cd4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Bias-Set" input
+			(at 223.52 100.33 180)
+			(uuid "cf5c02f1-3e09-41a4-a054-0f8d2ef06ca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -212,7 +384,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 34.29)
+		(at 45.72 39.37)
 		(size 39.37 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -228,7 +400,7 @@
 		)
 		(uuid "c06d43ef-ca8e-4531-a839-7ed47019a243")
 		(property "Sheetname" "Aux Power"
-			(at 143.51 33.5784 0)
+			(at 45.72 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,7 +409,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/auxPower.kicad_sch"
-			(at 143.51 48.8446 0)
+			(at 45.72 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,49 +545,6 @@
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 207.01 36.83)
-		(size 40.64 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fb2444d2-b86f-4030-b036-b8cf56e0db72")
-		(property "Sheetname" "Controls"
-			(at 207.01 36.1184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "schematics/controls.kicad_sch"
-			(at 207.01 50.1146 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "wb50"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
-					(page "2")
 				)
 			)
 		)
