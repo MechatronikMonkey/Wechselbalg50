@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|376000000|186250000|a444f140-960b-4e00-9d71-2a0dfa709c00|592a02e6-de79-451c-a281-9a8eded78ce7",
+          ""
+        ],
+        [
+          "clearance|376000000|186250000|a444f140-960b-4e00-9d71-2a0dfa709c00|a132e3a6-4e4e-48f6-8809-4bda8ccbc049",
+          ""
+        ],
+        [
+          "clearance|378000000|186250000|6d2bdd56-296d-494a-af3b-24c5eed825db|592a02e6-de79-451c-a281-9a8eded78ce7",
+          ""
+        ],
+        [
+          "clearance|378000000|186250000|6d2bdd56-296d-494a-af3b-24c5eed825db|a132e3a6-4e4e-48f6-8809-4bda8ccbc049",
+          ""
+        ],
+        [
+          "clearance|483250000|193250000|06b546a6-6e68-42c8-aecf-c7495808875c|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859",
+          ""
+        ],
+        [
+          "clearance|483250000|193250000|06b546a6-6e68-42c8-aecf-c7495808875c|da1336f6-f268-441f-9b3a-1cc808d4eddb",
+          ""
+        ],
+        [
+          "clearance|485250000|193250000|cd8edd08-a364-4971-962e-4f0ce6378e9d|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859",
+          ""
+        ],
+        [
+          "clearance|485250000|193250000|cd8edd08-a364-4971-962e-4f0ce6378e9d|da1336f6-f268-441f-9b3a-1cc808d4eddb",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|377000000|186250000|d31971ec-aab8-4650-92da-f84dbcffa5d6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "solder_mask_bridge|376000000|186250000|592a02e6-de79-451c-a281-9a8eded78ce7|a444f140-960b-4e00-9d71-2a0dfa709c00",
+          ""
+        ],
+        [
+          "solder_mask_bridge|376000000|186250000|a132e3a6-4e4e-48f6-8809-4bda8ccbc049|a444f140-960b-4e00-9d71-2a0dfa709c00",
+          ""
+        ],
+        [
+          "solder_mask_bridge|378000000|186250000|592a02e6-de79-451c-a281-9a8eded78ce7|6d2bdd56-296d-494a-af3b-24c5eed825db",
+          ""
+        ],
+        [
+          "solder_mask_bridge|378000000|186250000|a132e3a6-4e4e-48f6-8809-4bda8ccbc049|6d2bdd56-296d-494a-af3b-24c5eed825db",
+          ""
+        ],
+        [
+          "solder_mask_bridge|483250000|193250000|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859|06b546a6-6e68-42c8-aecf-c7495808875c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|483250000|193250000|da1336f6-f268-441f-9b3a-1cc808d4eddb|06b546a6-6e68-42c8-aecf-c7495808875c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|485250000|193250000|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859|cd8edd08-a364-4971-962e-4f0ce6378e9d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|485250000|193250000|da1336f6-f268-441f-9b3a-1cc808d4eddb|cd8edd08-a364-4971-962e-4f0ce6378e9d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -188,7 +257,9 @@
       ],
       "track_widths": [
         0.0,
-        2.0
+        1.0,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -220,6 +291,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false

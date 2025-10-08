@@ -139,6 +139,93 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "NetTie"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NetTie_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "Net2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.54)
+				(name "Net1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "WB50_12AX7"
 		(pin_numbers
 			(hide yes)
@@ -1387,14 +1474,14 @@
 			(pin passive line
 				(at 7.62 6.35 180)
 				(length 3.5)
-				(name "3"
+				(name "R"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1405,7 +1492,7 @@
 			(pin passive line
 				(at 7.62 3.81 180)
 				(length 3.5)
-				(name "5"
+				(name "RN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1423,7 +1510,7 @@
 			(pin passive line
 				(at 7.62 1.27 180)
 				(length 3.5)
-				(name "4"
+				(name "TN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1441,14 +1528,14 @@
 			(pin passive line
 				(at 7.62 -1.27 180)
 				(length 3.5)
-				(name "2"
+				(name "T"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1459,7 +1546,7 @@
 			(pin passive line
 				(at 7.62 -3.81 180)
 				(length 3.5)
-				(name "6"
+				(name "SN"
 					(effects
 						(font
 							(size 1.27 1.27)
