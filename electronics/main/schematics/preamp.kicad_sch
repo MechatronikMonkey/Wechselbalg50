@@ -5,113 +5,6 @@
 	(uuid "17b95469-cef5-44f8-99e7-8df60ce8ca43")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:TestPoint_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Small"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Small_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -1947,6 +1840,224 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:MT-0-103-C004-N004-RS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MT-0-103-C004-N004-RS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:SW-TH_MT-0-102-C004-N004-RS"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/1879287.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C22448931"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C22448931"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MT-0-103-C004-N004-RS_0_1"
+				(circle
+					(center -2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "wb50_symbols:MicaCap_500pf_500V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2808,16 +2919,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Bright Switch\nSolder Points"
-		(exclude_from_sim no)
-		(at 310.896 151.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5ad94f57-3f05-4e0f-ae90-4df025bd078e")
-	)
 	(junction
 		(at 152.4 90.17)
 		(diameter 0)
@@ -3024,16 +3125,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 140.97) (xy 297.18 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e6a6b59-0e1a-42aa-8422-291c039ef587")
-	)
-	(wire
-		(pts
 			(xy 62.23 53.34) (xy 59.69 53.34)
 		)
 		(stroke
@@ -3101,16 +3192,6 @@
 			(type default)
 		)
 		(uuid "37c13bf1-3b7d-442c-856b-fa460fc8caf6")
-	)
-	(wire
-		(pts
-			(xy 293.37 147.32) (xy 297.18 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37cced6a-c03d-42ea-883e-387c130bc7b5")
 	)
 	(wire
 		(pts
@@ -3194,6 +3275,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 146.05) (xy 298.45 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645b31b8-9123-4b8d-bd24-06390cc5bc61")
+	)
+	(wire
+		(pts
 			(xy 337.82 138.43) (xy 337.82 134.62)
 		)
 		(stroke
@@ -3224,6 +3315,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 140.97) (xy 298.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bd1b06-46e2-4885-b7b3-5e2a9c74adcf")
+	)
+	(wire
+		(pts
 			(xy 137.16 134.62) (xy 137.16 138.43)
 		)
 		(stroke
@@ -3241,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "6b0d24aa-2e11-4d4b-8729-8c066bce767b")
+	)
+	(wire
+		(pts
+			(xy 295.91 147.32) (xy 295.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec8cfe3-6f3c-4187-934f-ee4af622d562")
 	)
 	(wire
 		(pts
@@ -3601,6 +3712,16 @@
 			(type default)
 		)
 		(uuid "ba3c26ff-474d-4c10-a588-a6b413f23d7c")
+	)
+	(wire
+		(pts
+			(xy 293.37 147.32) (xy 295.91 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf51b931-c014-473a-8a68-5102de22073a")
 	)
 	(wire
 		(pts
@@ -4638,73 +4759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 297.18 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33b556d8-c9ef-4e35-a562-21cecdc6a55a")
-		(property "Reference" "X-BS-3"
-			(at 298.45 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3"
-			(at 298.45 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 302.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 297.18 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2817d79a-786f-44aa-ab19-c614d617e720")
-		)
-		(instances
-			(project ""
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
-					(reference "X-BS-3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 74.93 147.32 0)
 		(unit 1)
@@ -5073,7 +5127,7 @@
 		(dnp no)
 		(uuid "55c7a407-4bcf-4dcd-834a-20d55a8d832d")
 		(property "Reference" "U9"
-			(at 287.274 135.636 0)
+			(at 285.242 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5136,7 @@
 			)
 		)
 		(property "Value" "500pF 500V 5%"
-			(at 281.432 137.668 0)
+			(at 279.4 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,73 +6140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 308.61 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93cc3181-64da-4a5c-87dd-25fc78fb529c")
-		(property "Reference" "X-BS-2"
-			(at 309.88 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2"
-			(at 309.88 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 313.69 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 308.61 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4db38ca0-be22-4be3-b123-7fc1c06e043a")
-		)
-		(instances
-			(project "wb50"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
-					(reference "X-BS-2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 294.64 104.14 0)
 		(mirror x)
@@ -6220,73 +6207,6 @@
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
 					(reference "RV8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 297.18 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9738cf6f-ad02-4332-9ed0-2f7f500d0043")
-		(property "Reference" "X-BS-1"
-			(at 298.45 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1"
-			(at 298.45 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 302.26 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 297.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb7922ed-77e8-42d9-beac-ea347f7689fb")
-		)
-		(instances
-			(project "wb50"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
-					(reference "X-BS-1")
 					(unit 1)
 				)
 			)
@@ -7272,6 +7192,94 @@
 			(project ""
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:MT-0-103-C004-N004-RS")
+		(at 303.53 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7ddebf4-80ad-43bd-bea9-4d709026ab6a")
+		(property "Reference" "U35"
+			(at 304.8 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MT-0-103-C004-N004-RS"
+			(at 310.896 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW-TH_MT-0-102-C004-N004-RS"
+			(at 303.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/1879287.html"
+			(at 305.816 143.383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22448931"
+			(at 303.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8a634544-a110-420b-8dd1-58cc7fd5f1b5")
+		)
+		(pin "1"
+			(uuid "2df887a8-30c6-4ae1-b3e6-c3cbee6af79a")
+		)
+		(pin "3"
+			(uuid "7424f4ab-acff-499e-af84-f815c5e04781")
+		)
+		(pin "2"
+			(uuid "661d9b47-5f8e-416e-8876-1b771d0d9e2e")
+		)
+		(pin "4"
+			(uuid "e923d6a7-6635-4255-889f-5ca3e7570e8b")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f1b5402f-417b-4ade-9709-94213592078e"
+					(reference "U35")
 					(unit 1)
 				)
 			)

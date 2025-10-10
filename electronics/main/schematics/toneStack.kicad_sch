@@ -5349,7 +5349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2cfc75e-8f33-48e7-b7c9-372f6c98cfae")
-		(property "Reference" "Audo-From-FX1"
+		(property "Reference" "Audio-From-FX1"
 			(at 297.18 143.5099 0)
 			(effects
 				(font
@@ -5400,7 +5400,7 @@
 		(instances
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/f74de693-82a9-4691-89de-552f27ba6ee3"
-					(reference "Audo-From-FX1")
+					(reference "Audio-From-FX1")
 					(unit 1)
 				)
 			)

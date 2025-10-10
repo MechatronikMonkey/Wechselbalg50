@@ -1,4 +1,4 @@
-517826540225702
+523107798695645
 Connector
 BJB_Pico_46.110.1001_Receptacle_Horizontal
 BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
@@ -1994,6 +1994,27 @@ RES-TH_BD9.5-L22.0-P26.00-D0.7 footprint C334294
 0
 2
 2
+footprints
+SMD_BD4.2-L4.7-W4.7-D3.0
+SMD_BD4.2-L4.7-W4.7-D3.0 footprint
+SMD_BD4.2-L4.7-W4.7-D3.0 footprint C87703
+0
+4
+1
+footprints
+SW-TH_MT-0-102-C004-N004-RS
+SW-TH_MT-0-102-C004-N004-RS footprint
+SW-TH_MT-0-102-C004-N004-RS footprint C22448931
+0
+5
+5
+footprints
+SW-TH_ST-0-102-C03-N003-RS
+SW-TH_ST-0-102-C03-N003-RS footprint
+SW-TH_ST-0-102-C03-N003-RS footprint C1788489
+0
+5
+5
 footprints
 TO-220-3_L10.0-W4.5-P2.54-L
 TO-220-3_L10.0-W4.5-P2.54-L footprint

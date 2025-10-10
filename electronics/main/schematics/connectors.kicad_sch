@@ -213,6 +213,224 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:ST-0-102-C03-N003-RS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ST-0-102-C03-N003-RS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:SW-TH_ST-0-102-C03-N003-RS"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/1879280.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1788489"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C1788489"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ST-0-102-C03-N003-RS_0_1"
+				(circle
+					(center -2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "wb50_symbols:WB50_Jack_TRS_6pin_Switched"
 			(pin_numbers
 				(hide yes)
@@ -640,6 +858,12 @@
 		(uuid "09878be9-36f2-443b-9b7c-de2a73db1cb4")
 	)
 	(junction
+		(at 82.55 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44c1844b-1c29-4d20-9590-9105c2f9bb08")
+	)
+	(junction
 		(at 62.23 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -692,12 +916,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b349955c-2813-4b84-9e47-52420c8694cc")
-	)
-	(junction
-		(at 82.55 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba98a0d5-350b-4fe5-9327-0bc80a4b967f")
 	)
 	(junction
 		(at 232.41 53.34)
@@ -771,6 +989,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 77.47) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd99078-8390-4572-914d-34b823e2b53d")
+	)
+	(wire
+		(pts
 			(xy 260.35 76.2) (xy 254 76.2)
 		)
 		(stroke
@@ -808,6 +1036,16 @@
 			(type default)
 		)
 		(uuid "27fa390d-18f9-4bcb-83f7-80a527c0b4f7")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 115.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abaabce-d52d-4277-8f3f-712b85014269")
 	)
 	(wire
 		(pts
@@ -961,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 77.47) (xy 82.55 77.47)
+			(xy 57.15 77.47) (xy 95.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1061,6 +1299,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e5ed91-119b-45ce-b6dc-2a59f0bf2b2b")
+	)
+	(wire
+		(pts
 			(xy 247.65 25.4) (xy 260.35 25.4)
 		)
 		(stroke
@@ -1078,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "9bb06cd8-fc34-446b-bbf7-3a56e50c49f3")
+	)
+	(wire
+		(pts
+			(xy 95.25 78.74) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a374aaf8-c053-471d-aa30-b57eedebedce")
 	)
 	(wire
 		(pts
@@ -1148,6 +1406,16 @@
 			(type default)
 		)
 		(uuid "c60529c0-7914-470f-8707-3911e8bf22e4")
+	)
+	(wire
+		(pts
+			(xy 115.57 76.2) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca53c157-561f-4a5a-b40c-8f9eba637aae")
 	)
 	(wire
 		(pts
@@ -1294,6 +1562,94 @@
 		(uuid "6e9d8ed4-d103-4390-a91d-146698188740")
 	)
 	(symbol
+		(lib_id "symbols:ST-0-102-C03-N003-RS")
+		(at 105.41 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27f3b082-f0a6-46c6-930f-c0b8a2de6af3")
+		(property "Reference" "U34"
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST-0-102-C03-N003-RS"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW-TH_ST-0-102-C03-N003-RS"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/1879280.html"
+			(at 107.696 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1788489"
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a78263-a489-4014-bd8d-40517a105e04")
+		)
+		(pin "2"
+			(uuid "7732d583-95bf-4b7b-9335-e3db367f1879")
+		)
+		(pin "5"
+			(uuid "190d7684-7b8d-481c-86a4-6c5adfd32c3f")
+		)
+		(pin "4"
+			(uuid "f06395ec-cec3-4be7-ae47-d2ccfc063fe8")
+		)
+		(pin "3"
+			(uuid "283ee385-ccfc-49a7-9bb9-1d9bfe3b2e12")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/71fb01be-e2af-43a2-ab1d-1ec35077c210"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 81.28 0)
 		(unit 1)
@@ -1354,72 +1710,6 @@
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/71fb01be-e2af-43a2-ab1d-1ec35077c210"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ae96c00-43f5-4211-b2a6-1b367fee25a8")
-		(property "Reference" "X2"
-			(at 88.9 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Switch-GND"
-			(at 88.646 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d2eddcd-f621-4bd5-b746-a6c9d5a704e7")
-		)
-		(instances
-			(project "wb50"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/71fb01be-e2af-43a2-ab1d-1ec35077c210"
-					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -1498,72 +1788,6 @@
 			(project ""
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/71fb01be-e2af-43a2-ab1d-1ec35077c210"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c0c6554-4e2b-4d50-afe8-1df30dd52a16")
-		(property "Reference" "X1"
-			(at 88.9 74.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Switch-ON"
-			(at 88.646 72.136 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cb74ef7-9f92-4154-b0f0-18d4d0ceba2f")
-		)
-		(instances
-			(project "wb50"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/71fb01be-e2af-43a2-ab1d-1ec35077c210"
-					(reference "X1")
 					(unit 1)
 				)
 			)
