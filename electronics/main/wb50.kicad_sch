@@ -226,6 +226,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 96.52) (xy 59.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117effcf-a67a-44c1-b974-8e0798cfee7d")
+	)
+	(wire
+		(pts
 			(xy 158.75 107.95) (xy 158.75 88.9)
 		)
 		(stroke
@@ -256,16 +266,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 170.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3543d1e7-30ff-4f29-9b25-c97838752f3b")
-	)
-	(wire
-		(pts
 			(xy 170.18 107.95) (xy 158.75 107.95)
 		)
 		(stroke
@@ -273,6 +273,26 @@
 			(type default)
 		)
 		(uuid "3a6545c5-18e3-4e6f-8b5a-4bcb65e8279d")
+	)
+	(wire
+		(pts
+			(xy 113.03 107.95) (xy 113.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6d9ef4-d237-4189-a8ce-6cd4bba2b9e5")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 115.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e840243-de37-4438-90f1-b63334f4442f")
 	)
 	(wire
 		(pts
@@ -296,6 +316,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 115.57) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7706ec1e-0248-4992-9002-bc53f5bc759c")
+	)
+	(wire
+		(pts
+			(xy 115.57 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f24c756-983c-42a6-9ca5-d22837b65ba6")
+	)
+	(wire
+		(pts
 			(xy 196.85 152.4) (xy 196.85 151.13)
 		)
 		(stroke
@@ -316,13 +356,43 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 111.76) (xy 78.74 111.76)
+			(xy 123.19 107.95) (xy 113.03 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd51a883-6f68-4019-9ffa-8b6a5fb184fc")
+		(uuid "99535d71-7661-48cb-af68-740158bbdc4d")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a3d39c-ac2d-4490-b82e-8771642d7357")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa361fbe-da3c-4c0c-ade4-651d0c82cabd")
+	)
+	(wire
+		(pts
+			(xy 59.69 106.68) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2156ac-a6cd-49e7-9881-04f69b91f6d7")
 	)
 	(wire
 		(pts
@@ -343,16 +413,6 @@
 			(type default)
 		)
 		(uuid "ea40dafa-70d3-4674-b4cb-c44571fdde28")
-	)
-	(wire
-		(pts
-			(xy 100.33 107.95) (xy 123.19 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efdcd352-7c87-48d9-a0df-82f89a4b3ecc")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -490,6 +550,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 151.13 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cbce8c8-7fb0-40b5-9a93-6c40892ea096")
+		(property "Reference" "AIR17"
+			(at 153.67 180.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VentingHole"
+			(at 153.67 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "537b5d7b-1bff-4bb6-9819-1bf2c2b96729")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "AIR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 49.53 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -550,6 +677,73 @@
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "MH8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 170.18 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28e27507-5cba-49f4-aa7a-bc0266b5003a")
+		(property "Reference" "AIR21"
+			(at 172.72 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VentingHole"
+			(at 172.72 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a7274b6-5bec-48a3-976f-f9df5fca1b2d")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "AIR21")
 					(unit 1)
 				)
 			)
@@ -824,6 +1018,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e4a6f0a-bd94-43ab-be3d-877e53460000")
+		(property "Reference" "AIR19"
+			(at 133.35 189.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VentingHole"
+			(at 133.35 192.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 135.89 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca92456d-6dbc-490f-99d2-483c7743c27a")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "AIR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 152.4 0)
 		(unit 1)
@@ -951,6 +1212,73 @@
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "MH6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8152a18d-b69c-4619-a0de-3a65cf15009b")
+		(property "Reference" "AIR20"
+			(at 153.67 189.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VentingHole"
+			(at 153.67 192.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 156.21 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc2083e0-eddb-4c96-93cd-07b202a08ba7")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "AIR20")
 					(unit 1)
 				)
 			)
@@ -1425,6 +1753,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 171.45 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8cbee9a-d236-4ae7-940e-c0c71c7e2f2f")
+		(property "Reference" "AIR22"
+			(at 173.99 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VentingHole"
+			(at 173.99 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 176.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 171.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c365a8b4-9aae-4554-8ca6-4ae689b35427")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "AIR22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 49.53 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1552,6 +1947,73 @@
 			(project "wb50"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "AIR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d89f822c-c956-464d-8de1-9010974b6d99")
+		(property "Reference" "AIR18"
+			(at 111.76 189.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VentingHole"
+			(at 111.76 192.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 114.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4343422d-428f-4cdb-86dc-d29484e2b580")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "AIR18")
 					(unit 1)
 				)
 			)
@@ -2113,7 +2575,7 @@
 			)
 		)
 		(pin "Audio_IN" output
-			(at 59.69 111.76 0)
+			(at 59.69 106.68 0)
 			(uuid "fda9bf6e-0ecd-49aa-82b2-591be0101aef")
 			(effects
 				(font
@@ -2125,6 +2587,26 @@
 		(pin "NFB_IN" input
 			(at 59.69 88.9 0)
 			(uuid "d228492f-8683-4592-a3a4-c32bf495a5e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Return" output
+			(at 59.69 93.98 0)
+			(uuid "875ac09b-1698-49d5-b0a6-f5cc5c69cb93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Send" input
+			(at 59.69 96.52 0)
+			(uuid "76ba9cb8-b028-4d28-9a90-954ed5a76745")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2729,7 @@
 			)
 		)
 		(pin "PI_IN" input
-			(at 170.18 111.76 180)
+			(at 170.18 115.57 180)
 			(uuid "9b3fb5a7-fe5c-4b76-bdae-5676f41d9575")
 			(effects
 				(font
@@ -2371,7 +2853,7 @@
 			)
 		)
 		(pin "Audio_IN" input
-			(at 78.74 111.76 180)
+			(at 78.74 106.68 180)
 			(uuid "9b98c603-fc95-45d0-ba41-8b9a7764cd83")
 			(effects
 				(font
@@ -2381,7 +2863,7 @@
 			)
 		)
 		(pin "PreAmp_OUT" output
-			(at 100.33 107.95 0)
+			(at 100.33 111.76 0)
 			(uuid "bcca172a-9809-4412-ba6b-a71ffa7a74c0")
 			(effects
 				(font
@@ -2433,7 +2915,7 @@
 			)
 		)
 		(pin "ToneStack_IN" input
-			(at 123.19 107.95 180)
+			(at 123.19 111.76 180)
 			(uuid "c0b6b3c2-d45c-4109-8590-898873e15987")
 			(effects
 				(font
@@ -2443,13 +2925,33 @@
 			)
 		)
 		(pin "ToneStack_OUT" output
-			(at 144.78 111.76 0)
+			(at 144.78 115.57 0)
 			(uuid "850fad73-4621-4bbd-8406-4e40d3b25e38")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Return" input
+			(at 123.19 105.41 180)
+			(uuid "bbf69207-5c99-402d-883c-10279ad5aa2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Send" output
+			(at 123.19 107.95 180)
+			(uuid "0cb91915-4e3a-455d-bafc-0d1bd5967402")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
