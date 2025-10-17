@@ -22,3 +22,10 @@ Datum;Kategorie;Artikel;Lieferant;Stückzahl;Einzelpreis_EUR;Summe_EUR;Notizen
 2025-10-10;Versand;Versand Tube-Town (Verstärker-Chassis);Tube-Town;1;8,45;8,45;
 2025-10-10;Lautsprecher;Celestion G12H-75 Creamback 8 Ohm;Online-Händler;1;165,00;165,00;Geschätzte Kosten
 2025-10-10;Fußschalter;Lead Foot FS-1 Fußpedal;Online-Händler;1;9,90;9,90;Kanalumschaltung
+2025-10-14;Sensoren;Hall-Stromsensor QNHC3;AliExpress;1;15,25;15,25;Ausgang 2,5 ± 2 V / 1,65 ± 0,625 V; Eingang 6 A
+2025-10-14;PCB-Komponenten;Verschiedene Diskrete Bauteile;LCSC;1;85,00;85,00;
+2025-10-17;Röhren;Verschiedene Röhren zum Testen;Tube Amp Doctor;1;249,31;249,31;TAD EL34 Blackplate, JJ ECC823, JJ ECC81, MICA Kondensatoren
+2025-10-17;Elektronik;C14 Kabel, Nixie Buchsen, Mustard Caps;Digikey;1;125,37;125,37;Netzkabel, Anschlussbuchsen, Coupling Kondensatoren
+2025-10-17;PCB-Komponenten;Potentiometer, Sicherungen, Widerstände;Reichelt;1;85,65;85,65;Bedienelemente und passive Bauteile
+2025-10-17;Sockel;Impedanzwahlschalter, Röhrensockel;Tube-Town;1;24,10;24,10;Lautsprecher-Impedanzschalter und zusätzliche Sockel
+2025-10-17;ZWISCHENSUMME;Kosten bis 17.10.2025;;;;;;;2057,27;Gesamtkosten aller bisherigen Bestellungen
